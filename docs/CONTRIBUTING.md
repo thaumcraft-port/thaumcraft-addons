@@ -46,7 +46,7 @@ scripts/             # 自动化脚本
 | **文件名规范** | 仅使用 ASCII 字符；不带历史遗留的 `(20738+)` / `(20737-)` 前缀。推荐格式 `<modId>-<MC版本>-<模组版本>.jar`。 |
 | **无重复** | 同一 `(modId, MC 版本, 模组版本)` 只能出现一次；更新请替换旧文件。 |
 | **唯一版本** | 同一模组在同一 MC 版本下只保留**最新稳定版**；开发中版本请放 `experimental/`。 |
-| **索引一致** | `catalog/` 与 `README.md` 必须是脚本生成的**最新**状态（先跑 `add_mod.py` 或 `build.ps1` 再提交）。 |
+| **索引一致** | `catalog/` 与 `README.md` 必须是脚本生成的**最新**状态（先跑 `add_mod.py` 或 `build.py` 再提交）。 |
 | **许可** | jar 内必须声明 `license`；不得上传你无权分发的二进制。 |
 
 ## 手动流程（等价于 add_mod.py）
@@ -56,10 +56,10 @@ scripts/             # 自动化脚本
 3. 运行 `python scripts/gen_readme.py`；
 4. 提交 jar + `catalog/` + `README.md`。
 
-Windows 上一键完成：
+任意平台一键完成（含校验）：
 
-```powershell
-./scripts/build.ps1 -Validate
+```bash
+python scripts/build.py --validate
 ```
 
 ## 提交信息规范

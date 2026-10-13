@@ -7,9 +7,6 @@
 *.jpg   binary
 *.ogg   binary
 
-# Windows scripts keep CRLF
-*.ps1   text eol=crlf
-
 # Source / config / docs use LF
 *.py    text eol=lf
 *.yml   text eol=lf

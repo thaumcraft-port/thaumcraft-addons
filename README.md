@@ -149,4 +149,4 @@ git push
 
 ---
 
-<sub>本 README 由 `scripts/gen_readme.py` 依据 `catalog/mods.json` 自动生成，请勿手工编辑；如需修改请编辑 `README.template.md`。生成时间：2026-10-13T17:20:26Z</sub>
+<sub>本 README 由 `scripts/gen_readme.py` 依据 `catalog/mods.json` 自动生成，请勿手工编辑；如需修改请编辑 `README.template.md`。生成时间：2026-10-13T17:22:13Z</sub>

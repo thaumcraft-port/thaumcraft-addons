@@ -40,7 +40,7 @@ body:
     id: tc4build
     attributes:
       label: 当前使用的 TC4R 内核构建号
-      description: 不确定可留空；可运行 scripts/scan-mod.ps1 查看每个模组的要求
+      description: 不确定可留空；可运行 python scripts/scan_mod.py --all 查看每个模组的要求
       placeholder: "例如 20738"
     validations:
       required: false

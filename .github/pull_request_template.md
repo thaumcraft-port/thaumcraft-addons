@@ -26,6 +26,6 @@
 - [ ] jar 放在 `mods/<Minecraft版本>/`（实验版放 `mods/experimental/<Minecraft版本>/`）
 - [ ] 已在 jar 内声明 `thaumcraft` 依赖与 `license`
 - [ ] 文件名规范（ASCII、无 `(20738+)` 前缀）
-- [ ] 已运行 `python scripts/add_mod.py`（或 `build.ps1`），提交了 `catalog/` 与 `README.md`
+- [ ] 已运行 `python scripts/add_mod.py`（或 `python scripts/build.py`），提交了 `catalog/` 与 `README.md`
 - [ ] 本地 `python scripts/validate.py --check-generated` 通过
 - [ ] 我确认有权分发该二进制文件，并遵守其开源许可
