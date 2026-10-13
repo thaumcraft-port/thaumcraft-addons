@@ -1,0 +1,61 @@
+name: 问题反馈 / Bug report
+description: 报告某个模组的崩溃、加载失败或下载问题
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！请尽量填写完整信息，便于快速定位问题。
+        注意：本仓库只负责**分发与索引**；模组本身的逻辑问题建议同时联系原作者。
+  - type: input
+    id: mod
+    attributes:
+      label: 模组名称与版本
+      description: 例如 ThaumicEnergistics 2.3.17-forge-alpha
+      placeholder: "模组名 + 版本"
+    validations:
+      required: true
+  - type: dropdown
+    id: mc
+    attributes:
+      label: Minecraft 版本
+      options:
+        - "1.20.1"
+        - "1.21.1"
+        - "其他（请在描述中说明）"
+    validations:
+      required: true
+  - type: dropdown
+    id: loader
+    attributes:
+      label: 加载器
+      options:
+        - Forge
+        - NeoForge
+        - 其他
+    validations:
+      required: true
+  - type: input
+    id: tc4build
+    attributes:
+      label: 当前使用的 TC4R 内核构建号
+      description: 不确定可留空；可运行 scripts/scan-mod.ps1 查看每个模组的要求
+      placeholder: "例如 20738"
+    validations:
+      required: false
+  - type: textarea
+    id: desc
+    attributes:
+      label: 问题描述
+      description: 发生了什么？期望是什么？
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: 崩溃日志 / 报错
+      description: 粘贴 latest.log、crash-report 或相关堆栈
+      render: text
+    validations:
+      required: false

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 添加 / 提交我的模组
+    url: https://github.com/thaumcraft-port/thaumcraft-addons/blob/main/docs/CONTRIBUTING.md
+    about: 添加模组请直接通过 Pull Request 提交，详见贡献指南。
+  - name: 下载模组
+    url: https://github.com/thaumcraft-port/thaumcraft-addons/releases
+    about: 所有二进制模组都在 Releases 页面。

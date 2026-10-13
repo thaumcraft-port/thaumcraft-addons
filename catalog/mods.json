@@ -1,0 +1,881 @@
+{
+  "repo": "thaumcraft-port/thaumcraft-addons",
+  "generated_at": "2026-10-13T17:20:55Z",
+  "release_tag": "latest",
+  "mc_versions": [
+    "1.20.1",
+    "1.21.1"
+  ],
+  "counts": {
+    "1.20.1/experimental": 2,
+    "1.20.1/stable": 3,
+    "1.21.1/experimental": 2,
+    "1.21.1/stable": 3
+  },
+  "total": 10,
+  "mods": [
+    {
+      "file": "mods/experimental/1.20.1/thaumic-bases-forge-1.3.1710.4-1.20.1-port.0.1.0-9470460a.jar",
+      "file_name": "thaumic-bases-forge-1.3.1710.4-1.20.1-port.0.1.0-9470460a.jar",
+      "size": 3040310,
+      "sha256": "5c7b565e60116a47373514a8ca42649ead14175a42fa73b3ea7e60f2d80ac50d",
+      "channel": "experimental",
+      "mc_version": "1.20.1",
+      "loader": "forge",
+      "mod_id": "thaumicbases",
+      "mod_name": "Thaumic Bases",
+      "mod_version": "1.3.1710.4-1.20.1-port.0.1.0-9470460a",
+      "authors": "Modbder, Reconstruction contributors",
+      "license": "",
+      "description": "Thaumic Bases for Thaumcraft 4 Reconstructed, compiled from one shared gameplay and resource tree.",
+      "tc4": {
+        "raw": "[4.2.3.5-1.20.1-port.0.1.0-20738,)",
+        "lower": "4.2.3.5-1.20.1-port.0.1.0-20738",
+        "base": "4.2.3.5",
+        "mc": "1.20.1",
+        "port": "0.1.0",
+        "build": 20738,
+        "mandatory": true
+      },
+      "thaumic_tinkerer": {
+        "raw": "[2.5-1.20.1-port.0.1.0-20738,)",
+        "lower": "2.5-1.20.1-port.0.1.0-20738",
+        "base": "2.5",
+        "mc": "1.20.1",
+        "port": "0.1.0",
+        "build": 20738
+      },
+      "dependencies": [
+        {
+          "owner": "thaumicbases",
+          "mod_id": "forge",
+          "version_range": "[47.4.10,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumicbases",
+          "mod_id": "minecraft",
+          "version_range": "[1.20.1]",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "thaumicbases",
+          "mod_id": "thaumcraft",
+          "version_range": "[4.2.3.5-1.20.1-port.0.1.0-20738,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumicbases",
+          "mod_id": "curios",
+          "version_range": "*",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumicbases",
+          "mod_id": "thaumictinkerer",
+          "version_range": "[2.5-1.20.1-port.0.1.0-20738,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        }
+      ],
+      "filename_hint": null,
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumic-bases-forge-1.3.1710.4-1.20.1-port.0.1.0-9470460a.jar"
+    },
+    {
+      "file": "mods/experimental/1.20.1/thaumic-bases-forge-1.3.1710.4-1.20.1-port.0.1.0-ebf949bf.jar",
+      "file_name": "thaumic-bases-forge-1.3.1710.4-1.20.1-port.0.1.0-ebf949bf.jar",
+      "size": 2997724,
+      "sha256": "e48b6db8b990f0bc872e4b5c85b457b453ae0ca1fd690db5723fda65840b2204",
+      "channel": "experimental",
+      "mc_version": "1.20.1",
+      "loader": "forge",
+      "mod_id": "thaumicbases",
+      "mod_name": "Thaumic Bases",
+      "mod_version": "1.3.1710.4-1.20.1-port.0.1.0-ebf949bf",
+      "authors": "Modbder, Reconstruction contributors",
+      "license": "",
+      "description": "Thaumic Bases for Thaumcraft 4 Reconstructed, compiled from one shared gameplay and resource tree.",
+      "tc4": {
+        "raw": "[4.2.3.5-1.20.1-port.0.1.0-20732,)",
+        "lower": "4.2.3.5-1.20.1-port.0.1.0-20732",
+        "base": "4.2.3.5",
+        "mc": "1.20.1",
+        "port": "0.1.0",
+        "build": 20732,
+        "mandatory": true
+      },
+      "thaumic_tinkerer": {
+        "raw": "[2.5-1.20.1-port.0.1.0-20732,)",
+        "lower": "2.5-1.20.1-port.0.1.0-20732",
+        "base": "2.5",
+        "mc": "1.20.1",
+        "port": "0.1.0",
+        "build": 20732
+      },
+      "dependencies": [
+        {
+          "owner": "thaumicbases",
+          "mod_id": "forge",
+          "version_range": "[47.4.10,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumicbases",
+          "mod_id": "minecraft",
+          "version_range": "[1.20.1]",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "thaumicbases",
+          "mod_id": "thaumcraft",
+          "version_range": "[4.2.3.5-1.20.1-port.0.1.0-20732,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumicbases",
+          "mod_id": "curios",
+          "version_range": "*",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumicbases",
+          "mod_id": "thaumictinkerer",
+          "version_range": "[2.5-1.20.1-port.0.1.0-20732,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        }
+      ],
+      "filename_hint": null,
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumic-bases-forge-1.3.1710.4-1.20.1-port.0.1.0-ebf949bf.jar"
+    },
+    {
+      "file": "mods/1.20.1/technom-1.20.1-0.1.0-dev.jar",
+      "file_name": "technom-1.20.1-0.1.0-dev.jar",
+      "size": 1635858,
+      "sha256": "6824dbc9592c7c919c1d3c4a18c328383488ef8df5e75681eca6f40c211ac50d",
+      "channel": "stable",
+      "mc_version": "1.20.1",
+      "loader": "forge",
+      "mod_id": "technom",
+      "mod_name": "Technomancy Unofficial",
+      "mod_version": "0.1.0-dev",
+      "authors": "Democretes, theflogat, Mordenkainen; unofficial port contributors",
+      "license": "",
+      "description": "Unofficial Technomancy port for Minecraft 1.20.1. Development scaffold; gameplay migration is in progress.",
+      "tc4": {
+        "raw": "[4.2.3.5-1.20.1-port.0.1.0-20721]",
+        "lower": "4.2.3.5-1.20.1-port.0.1.0-20721",
+        "base": "4.2.3.5",
+        "mc": "1.20.1",
+        "port": "0.1.0",
+        "build": 20721,
+        "mandatory": true
+      },
+      "thaumic_tinkerer": null,
+      "dependencies": [
+        {
+          "owner": "technom",
+          "mod_id": "forge",
+          "version_range": "[47.4.23,48)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "technom",
+          "mod_id": "minecraft",
+          "version_range": "[1.20.1]",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "technom",
+          "mod_id": "thaumcraft",
+          "version_range": "[4.2.3.5-1.20.1-port.0.1.0-20721]",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "technom",
+          "mod_id": "gtceu",
+          "version_range": "[7.5.3]",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        }
+      ],
+      "filename_hint": null,
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/technom-1.20.1-0.1.0-dev.jar"
+    },
+    {
+      "file": "mods/1.20.1/thaumicenergistics-2.3.17-forge-alpha.jar",
+      "file_name": "thaumicenergistics-2.3.17-forge-alpha.jar",
+      "size": 1470587,
+      "sha256": "1faacd6f7f2bcff1fed182caff97187ea7d8e2999cc38388465fcf48a2a4c35f",
+      "channel": "stable",
+      "mc_version": "1.20.1",
+      "loader": "forge",
+      "mod_id": "thaumicenergistics",
+      "mod_name": "ThaumicEnergistics",
+      "mod_version": "2.3.17-forge-alpha",
+      "authors": "Nividica & Community",
+      "license": "",
+      "description": "Bridges Thaumcraft Essentia with Applied Energistics 2 ME networks (Forge 1.20.1 port).",
+      "tc4": {
+        "raw": "[4.2.3.5,)",
+        "lower": "4.2.3.5",
+        "base": "4.2.3.5",
+        "mc": null,
+        "port": null,
+        "build": null,
+        "mandatory": true
+      },
+      "thaumic_tinkerer": null,
+      "dependencies": [
+        {
+          "owner": "thaumicenergistics",
+          "mod_id": "forge",
+          "version_range": "[47.4,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "thaumicenergistics",
+          "mod_id": "minecraft",
+          "version_range": "[1.20.1,1.21)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "thaumicenergistics",
+          "mod_id": "ae2",
+          "version_range": "[15,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumicenergistics",
+          "mod_id": "thaumcraft",
+          "version_range": "[4.2.3.5,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumicenergistics",
+          "mod_id": "jei",
+          "version_range": "[15,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumicenergistics",
+          "mod_id": "jade",
+          "version_range": "[11,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        }
+      ],
+      "filename_hint": null,
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumicenergistics-2.3.17-forge-alpha.jar"
+    },
+    {
+      "file": "mods/1.20.1/huixuantiangong-forge-1.20.1-1.30.12.jar",
+      "file_name": "huixuantiangong-forge-1.20.1-1.30.12.jar",
+      "size": 1599493,
+      "sha256": "54c9d9c997c1dacaa0a19f7fdef8480f867923f7373b2ca800d6e027841746ff",
+      "channel": "stable",
+      "mc_version": "1.20.1",
+      "loader": "forge",
+      "mod_id": "zmod",
+      "mod_name": "秽玄天工",
+      "mod_version": "1.30.12",
+      "authors": "FengXiang1",
+      "license": "",
+      "description": "秽玄天工 1.20.1 Forge 移植版",
+      "tc4": {
+        "raw": "[4.2,)",
+        "lower": "4.2",
+        "base": "4.2",
+        "mc": null,
+        "port": null,
+        "build": null,
+        "mandatory": false
+      },
+      "thaumic_tinkerer": {
+        "raw": "[2.5,)",
+        "lower": "2.5",
+        "base": "2.5",
+        "mc": null,
+        "port": null,
+        "build": null
+      },
+      "dependencies": [
+        {
+          "owner": "zmod",
+          "mod_id": "forge",
+          "version_range": "[47.4.10,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "zmod",
+          "mod_id": "minecraft",
+          "version_range": "[1.20.1,1.20.2)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "zmod",
+          "mod_id": "mekanism",
+          "version_range": "[10.4,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "zmod",
+          "mod_id": "thaumcraft",
+          "version_range": "[4.2,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "zmod",
+          "mod_id": "tainted_magic",
+          "version_range": "[8.1,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "zmod",
+          "mod_id": "thaumictinkerer",
+          "version_range": "[2.5,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "zmod",
+          "mod_id": "jei",
+          "version_range": "[15.21.0.148,16)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "CLIENT",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "zmod",
+          "mod_id": "jei_mekanism_multiblocks",
+          "version_range": "[4.27,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "CLIENT",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "zmod",
+          "mod_id": "ae2",
+          "version_range": "[15,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "zmod",
+          "mod_id": "thaumicenergistics",
+          "version_range": "[2.3,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        }
+      ],
+      "filename_hint": null,
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/huixuantiangong-forge-1.20.1-1.30.12.jar"
+    },
+    {
+      "file": "mods/experimental/1.21.1/thaumic-bases-neoforge-1.3.1710.4-1.21.1-port.0.1.0-9470460a.jar",
+      "file_name": "thaumic-bases-neoforge-1.3.1710.4-1.21.1-port.0.1.0-9470460a.jar",
+      "size": 2857294,
+      "sha256": "8ed6299663195abcdde4fccc3d58f2e2028d7decf0d1c844f6f128edfc814d05",
+      "channel": "experimental",
+      "mc_version": "1.21.1",
+      "loader": "neoforge",
+      "mod_id": "thaumicbases",
+      "mod_name": "Thaumic Bases",
+      "mod_version": "1.3.1710.4-1.21.1-port.0.1.0-9470460a",
+      "authors": "Modbder, Reconstruction contributors",
+      "license": "",
+      "description": "Thaumic Bases for Thaumcraft 4 Reconstructed, compiled from one shared gameplay and resource tree.",
+      "tc4": {
+        "raw": "[4.2.3.5-1.21.1-port.0.1.0-20738,)",
+        "lower": "4.2.3.5-1.21.1-port.0.1.0-20738",
+        "base": "4.2.3.5",
+        "mc": "1.21.1",
+        "port": "0.1.0",
+        "build": 20738,
+        "mandatory": true
+      },
+      "thaumic_tinkerer": {
+        "raw": "[2.5-1.21.1-port.0.1.0-20738,)",
+        "lower": "2.5-1.21.1-port.0.1.0-20738",
+        "base": "2.5",
+        "mc": "1.21.1",
+        "port": "0.1.0",
+        "build": 20738
+      },
+      "dependencies": [
+        {
+          "owner": "thaumicbases",
+          "mod_id": "neoforge",
+          "version_range": "[21.1.248,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumicbases",
+          "mod_id": "minecraft",
+          "version_range": "[1.21.1]",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "thaumicbases",
+          "mod_id": "thaumcraft",
+          "version_range": "[4.2.3.5-1.21.1-port.0.1.0-20738,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumicbases",
+          "mod_id": "curios",
+          "version_range": "*",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumicbases",
+          "mod_id": "thaumictinkerer",
+          "version_range": "[2.5-1.21.1-port.0.1.0-20738,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        }
+      ],
+      "filename_hint": null,
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumic-bases-neoforge-1.3.1710.4-1.21.1-port.0.1.0-9470460a.jar"
+    },
+    {
+      "file": "mods/experimental/1.21.1/thaumic-bases-neoforge-1.3.1710.4-1.21.1-port.0.1.0-ebf949bf.jar",
+      "file_name": "thaumic-bases-neoforge-1.3.1710.4-1.21.1-port.0.1.0-ebf949bf.jar",
+      "size": 2834715,
+      "sha256": "ce190dadbb3d28d25ff709b7a7c09177328abb1f1bd2afe014b5b6e3e909270e",
+      "channel": "experimental",
+      "mc_version": "1.21.1",
+      "loader": "neoforge",
+      "mod_id": "thaumicbases",
+      "mod_name": "Thaumic Bases",
+      "mod_version": "1.3.1710.4-1.21.1-port.0.1.0-ebf949bf",
+      "authors": "Modbder, Reconstruction contributors",
+      "license": "",
+      "description": "Thaumic Bases for Thaumcraft 4 Reconstructed, compiled from one shared gameplay and resource tree.",
+      "tc4": {
+        "raw": "[4.2.3.5-1.21.1-port.0.1.0-20732,)",
+        "lower": "4.2.3.5-1.21.1-port.0.1.0-20732",
+        "base": "4.2.3.5",
+        "mc": "1.21.1",
+        "port": "0.1.0",
+        "build": 20732,
+        "mandatory": true
+      },
+      "thaumic_tinkerer": {
+        "raw": "[2.5-1.21.1-port.0.1.0-20732,)",
+        "lower": "2.5-1.21.1-port.0.1.0-20732",
+        "base": "2.5",
+        "mc": "1.21.1",
+        "port": "0.1.0",
+        "build": 20732
+      },
+      "dependencies": [
+        {
+          "owner": "thaumicbases",
+          "mod_id": "neoforge",
+          "version_range": "[21.1.248,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumicbases",
+          "mod_id": "minecraft",
+          "version_range": "[1.21.1]",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "thaumicbases",
+          "mod_id": "thaumcraft",
+          "version_range": "[4.2.3.5-1.21.1-port.0.1.0-20732,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumicbases",
+          "mod_id": "curios",
+          "version_range": "*",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumicbases",
+          "mod_id": "thaumictinkerer",
+          "version_range": "[2.5-1.21.1-port.0.1.0-20732,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        }
+      ],
+      "filename_hint": null,
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumic-bases-neoforge-1.3.1710.4-1.21.1-port.0.1.0-ebf949bf.jar"
+    },
+    {
+      "file": "mods/1.21.1/thaumicenergistics-1.21.1-neo-2.4.18-alpha.jar",
+      "file_name": "thaumicenergistics-1.21.1-neo-2.4.18-alpha.jar",
+      "size": 1462238,
+      "sha256": "b270a26ccf3707308c8a03252d47af98543338c94a1370c00c984a94c71b071c",
+      "channel": "stable",
+      "mc_version": "1.21.1",
+      "loader": "neoforge",
+      "mod_id": "tc_energy",
+      "mod_name": "ThaumicEnergistics",
+      "mod_version": "2.4.17-alpha",
+      "authors": "Nividica, Community",
+      "license": "",
+      "description": "Bridges Thaumcraft Essentia with Applied Energistics 2 ME networks.",
+      "tc4": {
+        "raw": "[4.2.3.5,)",
+        "lower": "4.2.3.5",
+        "base": "4.2.3.5",
+        "mc": null,
+        "port": null,
+        "build": null,
+        "mandatory": true
+      },
+      "thaumic_tinkerer": null,
+      "dependencies": [
+        {
+          "owner": "tc_energy",
+          "mod_id": "neoforge",
+          "version_range": "[21,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "tc_energy",
+          "mod_id": "minecraft",
+          "version_range": "[1.21.1,1.22)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "tc_energy",
+          "mod_id": "ae2",
+          "version_range": "[19,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "tc_energy",
+          "mod_id": "thaumcraft",
+          "version_range": "[4.2.3.5,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "tc_energy",
+          "mod_id": "jei",
+          "version_range": "[19,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "CLIENT",
+          "ordering": "NONE"
+        }
+      ],
+      "filename_hint": null,
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumicenergistics-1.21.1-neo-2.4.18-alpha.jar"
+    },
+    {
+      "file": "mods/1.21.1/technom-1.21.1-neoforge-0.1.0-dev.jar",
+      "file_name": "technom-1.21.1-neoforge-0.1.0-dev.jar",
+      "size": 1608738,
+      "sha256": "8ca10b90ac3c3efd5969d31f4b0afb9b899848f22db0b090076150f5d33265a7",
+      "channel": "stable",
+      "mc_version": "1.21.1",
+      "loader": "neoforge",
+      "mod_id": "technom",
+      "mod_name": "Technomancy Unofficial",
+      "mod_version": "0.1.0-dev",
+      "authors": "Democretes, theflogat, Mordenkainen; unofficial port contributors",
+      "license": "",
+      "description": "Unofficial Technomancy port: essentia-powered machinery, node engineering, rituals, and a shared FE/EU energy system.",
+      "tc4": {
+        "raw": "[4.2.3.5-1.21.1-port.0.1.0-20736]",
+        "lower": "4.2.3.5-1.21.1-port.0.1.0-20736",
+        "base": "4.2.3.5",
+        "mc": "1.21.1",
+        "port": "0.1.0",
+        "build": 20736,
+        "mandatory": true
+      },
+      "thaumic_tinkerer": null,
+      "dependencies": [
+        {
+          "owner": "technom",
+          "mod_id": "neoforge",
+          "version_range": "[21.1.248,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "technom",
+          "mod_id": "minecraft",
+          "version_range": "[1.21.1]",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "technom",
+          "mod_id": "thaumcraft",
+          "version_range": "[4.2.3.5-1.21.1-port.0.1.0-20736]",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "technom",
+          "mod_id": "gtceu",
+          "version_range": "[7.0.2]",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        }
+      ],
+      "filename_hint": null,
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/technom-1.21.1-neoforge-0.1.0-dev.jar"
+    },
+    {
+      "file": "mods/1.21.1/huixuantiangong-neoforge-1.21.1-1.30.26.jar",
+      "file_name": "huixuantiangong-neoforge-1.21.1-1.30.26.jar",
+      "size": 4846584,
+      "sha256": "2dffb4e134b61568bdd3a5d1ca8bc6de57dd91c4c816046ac8b8b3291665122e",
+      "channel": "stable",
+      "mc_version": "1.21.1",
+      "loader": "neoforge",
+      "mod_id": "zmod",
+      "mod_name": "秽玄天工",
+      "mod_version": "1.30.26",
+      "authors": "FengXiang1",
+      "license": "",
+      "description": "秽玄天工：融合神秘时代与通用机械的工业模组。",
+      "tc4": {
+        "raw": "[4.2.3.5-1.21.1-port.0.1.0-20738,)",
+        "lower": "4.2.3.5-1.21.1-port.0.1.0-20738",
+        "base": "4.2.3.5",
+        "mc": "1.21.1",
+        "port": "0.1.0",
+        "build": 20738,
+        "mandatory": false
+      },
+      "thaumic_tinkerer": {
+        "raw": "[2.5,)",
+        "lower": "2.5",
+        "base": "2.5",
+        "mc": null,
+        "port": null,
+        "build": null
+      },
+      "dependencies": [
+        {
+          "owner": "zmod",
+          "mod_id": "neoforge",
+          "version_range": "[21.1.0,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "zmod",
+          "mod_id": "minecraft",
+          "version_range": "[1.21.1, 1.22)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "zmod",
+          "mod_id": "mekanism",
+          "version_range": "[10.7,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "zmod",
+          "mod_id": "thaumcraft",
+          "version_range": "[4.2.3.5-1.21.1-port.0.1.0-20738,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "zmod",
+          "mod_id": "tainted_magic",
+          "version_range": "[8.1,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "zmod",
+          "mod_id": "thaumictinkerer",
+          "version_range": "[2.5,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "zmod",
+          "mod_id": "jei",
+          "version_range": "",
+          "mandatory": false,
+          "type": "optional",
+          "side": "CLIENT",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "zmod",
+          "mod_id": "jei_mekanism_multiblocks",
+          "version_range": "[7.22,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "CLIENT",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "zmod",
+          "mod_id": "ae2",
+          "version_range": "[19,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "zmod",
+          "mod_id": "tc_energy",
+          "version_range": "[2.4,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        }
+      ],
+      "filename_hint": null,
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/huixuantiangong-neoforge-1.21.1-1.30.26.jar"
+    }
+  ]
+}
