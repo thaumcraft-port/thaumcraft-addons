@@ -203,13 +203,16 @@ def _fallback_toml(text: str) -> Dict[str, Any]:
                 node[last].append(current)
             continue
         if line.startswith("[") and line.endswith("]"):
-            current = None
+            # single (non-array) table -> ignore its keys
+            current = {}
             continue
-        if "=" not in line or current is None:
+        if "=" not in line:
             continue
         key, _, val = raw.partition("=")
         key = key.strip()
         val = val.strip()
+        # keys before any header belong to the document root
+        target = current if current is not None else root
         if val.startswith("'''") or val.startswith('"""'):
             quote = val[:3]
             body = val[3:]
@@ -219,22 +222,22 @@ def _fallback_toml(text: str) -> Dict[str, Any]:
                 body += "\n" + lines[i]
                 i += 1
             body = body.split(quote, 1)[0]
-            current[key] = body
+            target[key] = body
             continue
         if val.startswith('"'):
             end = 1
             while end < len(val) and (val[end] != '"' or val[end - 1] == "\\"):
                 end += 1
-            current[key] = val[1:end]
+            target[key] = val[1:end]
             continue
         val = _strip_comment(val).strip()
         if val.startswith("[") and val.endswith("]"):
             items = [v.strip().strip('"') for v in val[1:-1].split(",") if v.strip()]
-            current[key] = items
+            target[key] = items
         elif val.lower() in ("true", "false"):
-            current[key] = val.lower() == "true"
+            target[key] = val.lower() == "true"
         else:
-            current[key] = val
+            target[key] = val
     return root
 
 

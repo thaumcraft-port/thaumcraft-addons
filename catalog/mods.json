@@ -1,6 +1,6 @@
 {
   "repo": "thaumcraft-port/thaumcraft-addons",
-  "generated_at": "2026-10-13T17:22:14Z",
+  "generated_at": "2026-10-13T17:26:08Z",
   "release_tag": "latest",
   "mc_versions": [
     "1.20.1",
@@ -26,7 +26,7 @@
       "mod_name": "Thaumic Bases",
       "mod_version": "1.3.1710.4-1.20.1-port.0.1.0-9470460a",
       "authors": "Modbder, Reconstruction contributors",
-      "license": "",
+      "license": "CC0-1.0",
       "description": "Thaumic Bases for Thaumcraft 4 Reconstructed, compiled from one shared gameplay and resource tree.",
       "tc4": {
         "raw": "[4.2.3.5-1.20.1-port.0.1.0-20738,)",
@@ -107,7 +107,7 @@
       "mod_name": "Thaumic Bases",
       "mod_version": "1.3.1710.4-1.20.1-port.0.1.0-ebf949bf",
       "authors": "Modbder, Reconstruction contributors",
-      "license": "",
+      "license": "CC0-1.0",
       "description": "Thaumic Bases for Thaumcraft 4 Reconstructed, compiled from one shared gameplay and resource tree.",
       "tc4": {
         "raw": "[4.2.3.5-1.20.1-port.0.1.0-20732,)",
@@ -188,7 +188,7 @@
       "mod_name": "Technomancy Unofficial",
       "mod_version": "0.1.0-dev",
       "authors": "Democretes, theflogat, Mordenkainen; unofficial port contributors",
-      "license": "",
+      "license": "Apache-2.0",
       "description": "Unofficial Technomancy port for Minecraft 1.20.1. Development scaffold; gameplay migration is in progress.",
       "tc4": {
         "raw": "[4.2.3.5-1.20.1-port.0.1.0-20721]",
@@ -253,7 +253,7 @@
       "mod_name": "ThaumicEnergistics",
       "mod_version": "2.3.17-forge-alpha",
       "authors": "Nividica & Community",
-      "license": "",
+      "license": "LGPL-3.0",
       "description": "Bridges Thaumcraft Essentia with Applied Energistics 2 ME networks (Forge 1.20.1 port).",
       "tc4": {
         "raw": "[4.2.3.5,)",
@@ -336,7 +336,7 @@
       "mod_name": "秽玄天工",
       "mod_version": "1.30.12",
       "authors": "FengXiang1",
-      "license": "",
+      "license": "All Rights Reserved",
       "description": "秽玄天工 1.20.1 Forge 移植版",
       "tc4": {
         "raw": "[4.2,)",
@@ -462,7 +462,7 @@
       "mod_name": "Thaumic Bases",
       "mod_version": "1.3.1710.4-1.21.1-port.0.1.0-9470460a",
       "authors": "Modbder, Reconstruction contributors",
-      "license": "",
+      "license": "CC0-1.0",
       "description": "Thaumic Bases for Thaumcraft 4 Reconstructed, compiled from one shared gameplay and resource tree.",
       "tc4": {
         "raw": "[4.2.3.5-1.21.1-port.0.1.0-20738,)",
@@ -543,7 +543,7 @@
       "mod_name": "Thaumic Bases",
       "mod_version": "1.3.1710.4-1.21.1-port.0.1.0-ebf949bf",
       "authors": "Modbder, Reconstruction contributors",
-      "license": "",
+      "license": "CC0-1.0",
       "description": "Thaumic Bases for Thaumcraft 4 Reconstructed, compiled from one shared gameplay and resource tree.",
       "tc4": {
         "raw": "[4.2.3.5-1.21.1-port.0.1.0-20732,)",
@@ -624,7 +624,7 @@
       "mod_name": "ThaumicEnergistics",
       "mod_version": "2.4.17-alpha",
       "authors": "Nividica, Community",
-      "license": "",
+      "license": "MIT",
       "description": "Bridges Thaumcraft Essentia with Applied Energistics 2 ME networks.",
       "tc4": {
         "raw": "[4.2.3.5,)",
@@ -698,7 +698,7 @@
       "mod_name": "Technomancy Unofficial",
       "mod_version": "0.1.0-dev",
       "authors": "Democretes, theflogat, Mordenkainen; unofficial port contributors",
-      "license": "",
+      "license": "Apache-2.0",
       "description": "Unofficial Technomancy port: essentia-powered machinery, node engineering, rituals, and a shared FE/EU energy system.",
       "tc4": {
         "raw": "[4.2.3.5-1.21.1-port.0.1.0-20736]",
@@ -763,7 +763,7 @@
       "mod_name": "秽玄天工",
       "mod_version": "1.30.26",
       "authors": "FengXiang1",
-      "license": "",
+      "license": "All Rights Reserved",
       "description": "秽玄天工：融合神秘时代与通用机械的工业模组。",
       "tc4": {
         "raw": "[4.2.3.5-1.21.1-port.0.1.0-20738,)",
