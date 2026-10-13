@@ -8,7 +8,7 @@
 [![Release](https://github.com/thaumcraft-port/thaumcraft-addons/actions/workflows/release.yml/badge.svg)](https://github.com/thaumcraft-port/thaumcraft-addons/actions/workflows/release.yml)
 [![Latest release](https://img.shields.io/github/v/release/thaumcraft-port/thaumcraft-addons?color=blue)](https://github.com/thaumcraft-port/thaumcraft-addons/releases)
 
-[下载](#-下载) · [模组介绍](#-模组介绍) · [版本对照](#-tc4r-版本对照) · [开发文档](#-tc4r-api-技术参考) · [贡献](#-贡献你的模组)
+[下载](#-下载) · [模组介绍](#-模组介绍) · [版本对照](#-tc4r-版本对照) · [贡献](#-贡献你的模组)
 
 </div>
 
@@ -101,13 +101,6 @@
 | ThaumicEnergistics | 1.21.1 | NeoForge | `2.4.17-alpha` | 4.2.3.5 | 任意 | 正式 |
 | 秽玄天工 | 1.21.1 | NeoForge | `1.30.26` | 4.2.3.5 | 20738 | 正式 |
 
-## 📚 TC4R API 技术参考
-
-面向附属开发者的原生 API 完整符号参考（从当前 API Jar 自动生成）：
-
-- [TC4R 1.20.1 · Forge 原生 API 完整参考](docs/TC4R-1.20.1-Forge-原生API完整参考.md)
-- [TC4R 1.21.1 · NeoForge 原生 API 完整参考](docs/TC4R-1.21.1-NeoForge-原生API完整参考.md)
-
 ## 🔐 校验和
 
 <details>
@@ -149,4 +142,4 @@ git push
 
 ---
 
-<sub>本 README 由 `scripts/gen_readme.py` 依据 `catalog/mods.json` 自动生成，请勿手工编辑；如需修改请编辑 `README.template.md`。生成时间：2026-10-13T17:26:06Z</sub>
+<sub>本 README 由 `scripts/gen_readme.py` 依据 `catalog/mods.json` 自动生成，请勿手工编辑；如需修改请编辑 `README.template.md`。生成时间：2026-10-13T17:36:51Z</sub>

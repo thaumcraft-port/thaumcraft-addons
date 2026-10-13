@@ -8,7 +8,7 @@
 [![Release](https://github.com/thaumcraft-port/thaumcraft-addons/actions/workflows/release.yml/badge.svg)](https://github.com/thaumcraft-port/thaumcraft-addons/actions/workflows/release.yml)
 [![Latest release](https://img.shields.io/github/v/release/thaumcraft-port/thaumcraft-addons?color=blue)]({{RELEASES_PAGE}})
 
-[下载](#-下载) · [模组介绍](#-模组介绍) · [版本对照](#-tc4r-版本对照) · [开发文档](#-tc4r-api-技术参考) · [贡献](#-贡献你的模组)
+[下载](#-下载) · [模组介绍](#-模组介绍) · [版本对照](#-tc4r-版本对照) · [贡献](#-贡献你的模组)
 
 </div>
 
@@ -44,13 +44,6 @@
 下表列出每个模组要求的最低 TC4R 内核构建号，来源是模组 `mods.toml` / `neoforge.mods.toml` 中 `thaumcraft` 依赖的版本范围。
 
 {{BUILD_MATRIX}}
-
-## 📚 TC4R API 技术参考
-
-面向附属开发者的原生 API 完整符号参考（从当前 API Jar 自动生成）：
-
-- [TC4R 1.20.1 · Forge 原生 API 完整参考](docs/TC4R-1.20.1-Forge-原生API完整参考.md)
-- [TC4R 1.21.1 · NeoForge 原生 API 完整参考](docs/TC4R-1.21.1-NeoForge-原生API完整参考.md)
 
 ## 🔐 校验和
 
