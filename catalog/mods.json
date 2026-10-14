@@ -1,6 +1,6 @@
 {
   "repo": "thaumcraft-port/thaumcraft-addons",
-  "generated_at": "2026-10-14T05:49:04Z",
+  "generated_at": "2026-10-14T18:09:48Z",
   "release_tag": "latest",
   "mc_versions": [
     "1.20.1",
@@ -8,11 +8,11 @@
   ],
   "counts": {
     "1.20.1/experimental": 2,
-    "1.20.1/stable": 11,
+    "1.20.1/stable": 12,
     "1.21.1/experimental": 2,
-    "1.21.1/stable": 9
+    "1.21.1/stable": 10
   },
-  "total": 24,
+  "total": 26,
   "mods": [
     {
       "file": "mods/experimental/1.20.1/thaumic-bases-forge-1.3.1710.4-1.20.1-port.0.1.0-9470460a.jar",
@@ -761,6 +761,62 @@
       "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/tainted-magic-forge-8.1.1-1.20.1-port.0.1.0-20739.jar"
     },
     {
+      "file": "mods/1.20.1/thaumcraft-client-tweaks-forge-1.1.5.jar",
+      "file_name": "thaumcraft-client-tweaks-forge-1.1.5.jar",
+      "size": 491579,
+      "sha256": "4d858adc7580cc804fa0b5363f6badfc3d68c5585d83568fe68600205408fce2",
+      "channel": "stable",
+      "mc_version": "1.20.1",
+      "loader": "forge",
+      "mod_id": "tc4tweaks",
+      "mod_name": "Thaumcraft Client Tweaks",
+      "mod_version": "1.1.5",
+      "authors": "Reconstruction contributors, TheElan (original research-table mod), Think (original research-table UI artwork)",
+      "license": "MIT",
+      "description": "Client-side Thaumonomicon search, navigation, layout, optional research-table interface and aura-node visual improvements.",
+      "tc4": {
+        "raw": "[4.2.3.5-1.20.1-port.0.1.0-20740,)",
+        "lower": "4.2.3.5-1.20.1-port.0.1.0-20740",
+        "base": "4.2.3.5",
+        "mc": "1.20.1",
+        "port": "0.1.0",
+        "build": 20740,
+        "mandatory": true
+      },
+      "thaumic_tinkerer": null,
+      "dependencies": [
+        {
+          "owner": "tc4tweaks",
+          "mod_id": "forge",
+          "version_range": "[47.4.10,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "CLIENT",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "tc4tweaks",
+          "mod_id": "minecraft",
+          "version_range": "[1.20.1]",
+          "mandatory": true,
+          "type": "required",
+          "side": "CLIENT",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "tc4tweaks",
+          "mod_id": "thaumcraft",
+          "version_range": "[4.2.3.5-1.20.1-port.0.1.0-20740,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "CLIENT",
+          "ordering": "AFTER"
+        }
+      ],
+      "filename_hint": null,
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumcraft-client-tweaks-forge-1.1.5.jar"
+    },
+    {
       "file": "mods/1.20.1/technom-1.20.1-0.1.0-dev.jar",
       "file_name": "technom-1.20.1-0.1.0-dev.jar",
       "size": 1635858,
@@ -1363,16 +1419,16 @@
       "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumic-bases-neoforge-1.3.1710.4-1.21.1-port.0.1.0-ebf949bf.jar"
     },
     {
-      "file": "mods/1.21.1/forbidden-magic-neoforge-0.574-1.21.1-port.0.1.0-20739.jar",
-      "file_name": "forbidden-magic-neoforge-0.574-1.21.1-port.0.1.0-20739.jar",
-      "size": 1079084,
-      "sha256": "c6ead04a4044165b1a9b737910650a25e5527dec19e5fc37af9ebc3df21847a9",
+      "file": "mods/1.21.1/forbidden-magic-neoforge-0.574-1.21.1-port.0.1.0-20740.jar",
+      "file_name": "forbidden-magic-neoforge-0.574-1.21.1-port.0.1.0-20740.jar",
+      "size": 1079079,
+      "sha256": "a5b5b16e35e73dbaf7cc26a9d55e0b1d5063dbf4e5eaddfe883eb228ed7f2607",
       "channel": "stable",
       "mc_version": "1.21.1",
       "loader": "neoforge",
       "mod_id": "forbidden_magic",
       "mod_name": "Forbidden Magic",
-      "mod_version": "0.574-1.21.1-port.0.1.0-20739",
+      "mod_version": "0.574-1.21.1-port.0.1.0-20740",
       "authors": "SpitefulFox; reconstruction contributors",
       "license": "WTFPL",
       "description": "Shared-source Forbidden Magic for Thaumcraft 4 Reconstructed.",
@@ -1468,7 +1524,7 @@
         }
       ],
       "filename_hint": null,
-      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/forbidden-magic-neoforge-0.574-1.21.1-port.0.1.0-20739.jar"
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/forbidden-magic-neoforge-0.574-1.21.1-port.0.1.0-20740.jar"
     },
     {
       "file": "mods/1.21.1/isorropia-1.21.1-0.1.0-dev.jar",
@@ -1536,26 +1592,26 @@
       "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/isorropia-1.21.1-0.1.0-dev.jar"
     },
     {
-      "file": "mods/1.21.1/nodal-mechanics-neoforge-1.0.7-port.0.1.0-20739.jar",
-      "file_name": "nodal-mechanics-neoforge-1.0.7-port.0.1.0-20739.jar",
-      "size": 80248,
-      "sha256": "831abcb1794b7536feaec9d5fcac017d0daadd4bd297ed3cc2f653b4c9cf1120",
+      "file": "mods/1.21.1/nodal-mechanics-neoforge-1.0.7-port.0.1.0-20740.jar",
+      "file_name": "nodal-mechanics-neoforge-1.0.7-port.0.1.0-20740.jar",
+      "size": 80200,
+      "sha256": "c23353b2927aa8fe3aea4cf0276357452bb0e4f1531e74514f942cf1ae0da11e",
       "channel": "stable",
       "mc_version": "1.21.1",
       "loader": "neoforge",
       "mod_id": "nodalmechanics",
       "mod_name": "Nodal Mechanics",
-      "mod_version": "1.0.7-port.0.1.0-20739",
+      "mod_version": "1.0.7-port.0.1.0-20740",
       "authors": "Shukaro (AKA-Syenite), Reconstruction contributors",
       "license": "Custom (see LICENSE)",
       "description": "Craft aura nodes through attunement and infusion using the Thaumcraft Universal API.",
       "tc4": {
-        "raw": "[4.2.3.5-1.21.1-port.0.1.0-20739,)",
-        "lower": "4.2.3.5-1.21.1-port.0.1.0-20739",
+        "raw": "[4.2.3.5-1.21.1-port.0.1.0-20740,)",
+        "lower": "4.2.3.5-1.21.1-port.0.1.0-20740",
         "base": "4.2.3.5",
         "mc": "1.21.1",
         "port": "0.1.0",
-        "build": 20739,
+        "build": 20740,
         "mandatory": true
       },
       "thaumic_tinkerer": null,
@@ -1581,7 +1637,7 @@
         {
           "owner": "nodalmechanics",
           "mod_id": "thaumcraft",
-          "version_range": "[4.2.3.5-1.21.1-port.0.1.0-20739,)",
+          "version_range": "[4.2.3.5-1.21.1-port.0.1.0-20740,)",
           "mandatory": true,
           "type": "required",
           "side": "BOTH",
@@ -1589,19 +1645,19 @@
         }
       ],
       "filename_hint": null,
-      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/nodal-mechanics-neoforge-1.0.7-port.0.1.0-20739.jar"
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/nodal-mechanics-neoforge-1.0.7-port.0.1.0-20740.jar"
     },
     {
-      "file": "mods/1.21.1/tainted-magic-neoforge-8.1.1-1.21.1-port.0.1.0-20739.jar",
-      "file_name": "tainted-magic-neoforge-8.1.1-1.21.1-port.0.1.0-20739.jar",
-      "size": 3844596,
-      "sha256": "8ba18c2064ff2bd772674fda46ef77304669268d2ab50d5f11c490fe67f888e1",
+      "file": "mods/1.21.1/tainted-magic-neoforge-8.1.1-1.21.1-port.0.1.0-20740.jar",
+      "file_name": "tainted-magic-neoforge-8.1.1-1.21.1-port.0.1.0-20740.jar",
+      "size": 3844609,
+      "sha256": "668c62475adbf437ab9e3e0933e5ef6f31dbc89370119a6be8c892f914305d69",
       "channel": "stable",
       "mc_version": "1.21.1",
       "loader": "neoforge",
       "mod_id": "tainted_magic",
       "mod_name": "Tainted Magic",
-      "mod_version": "8.1.1-1.21.1-port.0.1.0-20739",
+      "mod_version": "8.1.1-1.21.1-port.0.1.0-20740",
       "authors": "Original Tainted Magic authors; reconstruction contributors",
       "license": "See NOTICE.md",
       "description": "Tainted Magic for Thaumcraft 4 Reconstructed.",
@@ -1654,7 +1710,63 @@
         }
       ],
       "filename_hint": null,
-      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/tainted-magic-neoforge-8.1.1-1.21.1-port.0.1.0-20739.jar"
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/tainted-magic-neoforge-8.1.1-1.21.1-port.0.1.0-20740.jar"
+    },
+    {
+      "file": "mods/1.21.1/thaumcraft-client-tweaks-neoforge-1.1.5.jar",
+      "file_name": "thaumcraft-client-tweaks-neoforge-1.1.5.jar",
+      "size": 472542,
+      "sha256": "2f9f5e60bb6f5caa64211d0dc52a0e1b90c287d90da1b2ca7660b4d77905df79",
+      "channel": "stable",
+      "mc_version": "1.21.1",
+      "loader": "neoforge",
+      "mod_id": "tc4tweaks",
+      "mod_name": "Thaumcraft Client Tweaks",
+      "mod_version": "1.1.5",
+      "authors": "Reconstruction contributors, TheElan (original research-table mod), Think (original research-table UI artwork)",
+      "license": "MIT",
+      "description": "Client-side Thaumonomicon search, navigation, layout, optional research-table interface and aura-node visual improvements.",
+      "tc4": {
+        "raw": "[4.2.3.5-1.21.1-port.0.1.0-20740,)",
+        "lower": "4.2.3.5-1.21.1-port.0.1.0-20740",
+        "base": "4.2.3.5",
+        "mc": "1.21.1",
+        "port": "0.1.0",
+        "build": 20740,
+        "mandatory": true
+      },
+      "thaumic_tinkerer": null,
+      "dependencies": [
+        {
+          "owner": "tc4tweaks",
+          "mod_id": "neoforge",
+          "version_range": "[21.1.248,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "CLIENT",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "tc4tweaks",
+          "mod_id": "minecraft",
+          "version_range": "[1.21.1]",
+          "mandatory": true,
+          "type": "required",
+          "side": "CLIENT",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "tc4tweaks",
+          "mod_id": "thaumcraft",
+          "version_range": "[4.2.3.5-1.21.1-port.0.1.0-20740,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "CLIENT",
+          "ordering": "AFTER"
+        }
+      ],
+      "filename_hint": null,
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumcraft-client-tweaks-neoforge-1.1.5.jar"
     },
     {
       "file": "mods/1.21.1/thaumicenergistics-1.21.1-neo-2.4.18-alpha.jar",
@@ -1796,16 +1908,16 @@
       "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/technom-1.21.1-neoforge-0.1.0-dev.jar"
     },
     {
-      "file": "mods/1.21.1/thaumic-tinkerer-neoforge-2.5-1.21.1-port.0.1.0-20739.jar",
-      "file_name": "thaumic-tinkerer-neoforge-2.5-1.21.1-port.0.1.0-20739.jar",
-      "size": 2741785,
-      "sha256": "37fa8d55b8fa1c5b254db44f6d088cdca99fe08cb30d0b7b3135273ffd6c6feb",
+      "file": "mods/1.21.1/thaumic-tinkerer-neoforge-2.5-1.21.1-port.0.1.0-20740.jar",
+      "file_name": "thaumic-tinkerer-neoforge-2.5-1.21.1-port.0.1.0-20740.jar",
+      "size": 2742026,
+      "sha256": "24433370d80f5de6d2760eef3b2c6e7369a826237ff771a456ba8d8e1744c774",
       "channel": "stable",
       "mc_version": "1.21.1",
       "loader": "neoforge",
       "mod_id": "thaumictinkerer",
       "mod_name": "Thaumic Tinkerer",
-      "mod_version": "2.5-1.21.1-port.0.1.0-20739",
+      "mod_version": "2.5-1.21.1-port.0.1.0-20740",
       "authors": "Vazkii; nekosune; Pixlepix; reconstruction contributors",
       "license": "CC BY-NC-SA 3.0",
       "description": "Shared-source Thaumic Tinkerer for Thaumcraft 4 Reconstructed.",
@@ -1894,29 +2006,29 @@
         }
       ],
       "filename_hint": null,
-      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumic-tinkerer-neoforge-2.5-1.21.1-port.0.1.0-20739.jar"
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumic-tinkerer-neoforge-2.5-1.21.1-port.0.1.0-20740.jar"
     },
     {
-      "file": "mods/1.21.1/warp-theory-neoforge-1.5.8-GTNH-1.21.1-port.0.1.0-20739.jar",
-      "file_name": "warp-theory-neoforge-1.5.8-GTNH-1.21.1-port.0.1.0-20739.jar",
-      "size": 503774,
-      "sha256": "59b39a23b2b282de069c6eb14c0ec0bd8f12fb052266cb0248b8b9a123f1804c",
+      "file": "mods/1.21.1/warp-theory-neoforge-1.5.8-GTNH-1.21.1-port.0.1.0-20740.jar",
+      "file_name": "warp-theory-neoforge-1.5.8-GTNH-1.21.1-port.0.1.0-20740.jar",
+      "size": 503781,
+      "sha256": "b14dc54b2e4dd8971caf3ec4d6254bb9f4efc0ff52851c54405977bcd79b26c1",
       "channel": "stable",
       "mc_version": "1.21.1",
       "loader": "neoforge",
       "mod_id": "warptheory",
       "mod_name": "Warp Theory",
-      "mod_version": "1.5.8-GTNH-1.21.1-port.0.1.0-20739",
+      "mod_version": "1.5.8-GTNH-1.21.1-port.0.1.0-20740",
       "authors": "Shukaro, Namikon, GTNewHorizons contributors, Reconstruction contributors",
       "license": "Attribution; open source; no ad walls",
       "description": "GTNH Warp Theory for Thaumcraft 4 Reconstructed.",
       "tc4": {
-        "raw": "[4.2.3.5-1.21.1-port.0.1.0-20739,)",
-        "lower": "4.2.3.5-1.21.1-port.0.1.0-20739",
+        "raw": "[4.2.3.5-1.21.1-port.0.1.0-20740,)",
+        "lower": "4.2.3.5-1.21.1-port.0.1.0-20740",
         "base": "4.2.3.5",
         "mc": "1.21.1",
         "port": "0.1.0",
-        "build": 20739,
+        "build": 20740,
         "mandatory": true
       },
       "thaumic_tinkerer": null,
@@ -1942,7 +2054,7 @@
         {
           "owner": "warptheory",
           "mod_id": "thaumcraft",
-          "version_range": "[4.2.3.5-1.21.1-port.0.1.0-20739,)",
+          "version_range": "[4.2.3.5-1.21.1-port.0.1.0-20740,)",
           "mandatory": true,
           "type": "required",
           "side": "BOTH",
@@ -1959,7 +2071,7 @@
         }
       ],
       "filename_hint": null,
-      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/warp-theory-neoforge-1.5.8-GTNH-1.21.1-port.0.1.0-20739.jar"
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/warp-theory-neoforge-1.5.8-GTNH-1.21.1-port.0.1.0-20740.jar"
     },
     {
       "file": "mods/1.21.1/huixuantiangong-neoforge-1.21.1-1.30.26.jar",
