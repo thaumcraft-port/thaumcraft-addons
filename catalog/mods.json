@@ -1,6 +1,6 @@
 {
   "repo": "thaumcraft-port/thaumcraft-addons",
-  "generated_at": "2026-10-13T19:05:13Z",
+  "generated_at": "2026-10-14T05:23:13Z",
   "release_tag": "latest",
   "mc_versions": [
     "1.20.1",
@@ -8,11 +8,11 @@
   ],
   "counts": {
     "1.20.1/experimental": 2,
-    "1.20.1/stable": 5,
+    "1.20.1/stable": 7,
     "1.21.1/experimental": 2,
     "1.21.1/stable": 5
   },
-  "total": 14,
+  "total": 16,
   "mods": [
     {
       "file": "mods/experimental/1.20.1/thaumic-bases-forge-1.3.1710.4-1.20.1-port.0.1.0-9470460a.jar",
@@ -177,6 +177,98 @@
       "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumic-bases-forge-1.3.1710.4-1.20.1-port.0.1.0-ebf949bf.jar"
     },
     {
+      "file": "mods/1.20.1/forgottenrelics-1.20.1-1.7.3-beta-1.20.1-port.0.1.0.jar",
+      "file_name": "forgottenrelics-1.20.1-1.7.3-beta-1.20.1-port.0.1.0.jar",
+      "size": 413322,
+      "sha256": "28974bf373c83a4ee40397e3cb07a639f69b77297f6422a805011c35ff6c5ad8",
+      "channel": "stable",
+      "mc_version": "1.20.1",
+      "loader": "forge",
+      "mod_id": "forgottenrelics",
+      "mod_name": "Forgotten Relics",
+      "mod_version": "1.7.3-beta-1.20.1-port.0.1.0",
+      "authors": "Integral (Extegral); 1.20.1 reconstruction contributors",
+      "license": "All Rights Reserved",
+      "description": "A reconstruction of Forgotten Relics for Thaumcraft 4R on Minecraft 1.20.1.\nAdds a variety of powerful endgame relics, mostly oriented at expanding the horizons of mid- and endgame.",
+      "tc4": {
+        "raw": "[0.1.0,)",
+        "lower": "0.1.0",
+        "base": "0.1.0",
+        "mc": null,
+        "port": null,
+        "build": null,
+        "mandatory": true
+      },
+      "thaumic_tinkerer": null,
+      "dependencies": [
+        {
+          "owner": "forgottenrelics",
+          "mod_id": "forge",
+          "version_range": "[47.4.10,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "forgottenrelics",
+          "mod_id": "minecraft",
+          "version_range": "[1.20.1,1.21)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "forgottenrelics",
+          "mod_id": "thaumcraft",
+          "version_range": "[0.1.0,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "forgottenrelics",
+          "mod_id": "curios",
+          "version_range": "[5.14.1+1.20.1,6)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "forgottenrelics",
+          "mod_id": "botania",
+          "version_range": "[1.20.1-450,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "forgottenrelics",
+          "mod_id": "kubejs",
+          "version_range": "[2001,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "forgottenrelics",
+          "mod_id": "jei",
+          "version_range": "[15,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        }
+      ],
+      "filename_hint": null,
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/forgottenrelics-1.20.1-1.7.3-beta-1.20.1-port.0.1.0.jar"
+    },
+    {
       "file": "mods/1.20.1/nodal-mechanics-forge-1.0.7-port.0.1.0-20739.jar",
       "file_name": "nodal-mechanics-forge-1.0.7-port.0.1.0-20739.jar",
       "size": 158533,
@@ -231,6 +323,195 @@
       ],
       "filename_hint": null,
       "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/nodal-mechanics-forge-1.0.7-port.0.1.0-20739.jar"
+    },
+    {
+      "file": "mods/1.20.1/pollution-1.20.1-1.0.0-1.20.1-port.0.1.0.jar",
+      "file_name": "pollution-1.20.1-1.0.0-1.20.1-port.0.1.0.jar",
+      "size": 10418414,
+      "sha256": "a47c6c2ef4b7c3a2db53a58a2b0e71fd8071042848f9b9e80270e31d237d678a",
+      "channel": "stable",
+      "mc_version": "1.20.1",
+      "loader": "forge",
+      "mod_id": "pollution",
+      "mod_name": "Pollution Unofficial",
+      "mod_version": "1.0.0-1.20.1-port.0.1.0",
+      "authors": "KeQingSoCute520 (越人不歌); 1.20.1 port contributors",
+      "license": "AGPL-3.0-or-later",
+      "description": "Unofficial 1.20.1 port of Pollution: connects GregTech CEu Modern industrial pollution with Thaumcraft 4R flux, aura and warp systems.",
+      "tc4": {
+        "raw": "[0.1.0-20721,)",
+        "lower": "0.1.0-20721",
+        "base": "0.1.0",
+        "mc": null,
+        "port": null,
+        "build": null,
+        "mandatory": true
+      },
+      "thaumic_tinkerer": {
+        "raw": "[0.1.0-20721,)",
+        "lower": "0.1.0-20721",
+        "base": "0.1.0",
+        "mc": null,
+        "port": null,
+        "build": null
+      },
+      "dependencies": [
+        {
+          "owner": "pollution",
+          "mod_id": "forge",
+          "version_range": "[47.4.10,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "pollution",
+          "mod_id": "minecraft",
+          "version_range": "[1.20.1,1.21)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "pollution",
+          "mod_id": "thaumcraft",
+          "version_range": "[0.1.0-20721,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "pollution",
+          "mod_id": "astralsorcery",
+          "version_range": "[1.20.1.0,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "pollution",
+          "mod_id": "gtceu",
+          "version_range": "[7.5.3,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "pollution",
+          "mod_id": "curios",
+          "version_range": "[5.14.1,6)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "pollution",
+          "mod_id": "terrablender",
+          "version_range": "[3.0.1.10,4)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "pollution",
+          "mod_id": "jei",
+          "version_range": "[15.56.0.205,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "pollution",
+          "mod_id": "kubejs",
+          "version_range": "[2001.6.5,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "pollution",
+          "mod_id": "botania",
+          "version_range": "[1.20.1-454,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "pollution",
+          "mod_id": "ae2",
+          "version_range": "[15.4.10,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "pollution",
+          "mod_id": "gtnn",
+          "version_range": "[1.3.10,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "pollution",
+          "mod_id": "gcyr",
+          "version_range": "[0.2.9,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "pollution",
+          "mod_id": "forbidden_magic",
+          "version_range": "[0.1.0-20721,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "pollution",
+          "mod_id": "tainted_magic",
+          "version_range": "[0.1.0-20721,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "pollution",
+          "mod_id": "thaumicenergistics",
+          "version_range": "[0.1.0-20711,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "pollution",
+          "mod_id": "thaumictinkerer",
+          "version_range": "[0.1.0-20721,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        }
+      ],
+      "filename_hint": null,
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/pollution-1.20.1-1.0.0-1.20.1-port.0.1.0.jar"
     },
     {
       "file": "mods/1.20.1/technom-1.20.1-0.1.0-dev.jar",
