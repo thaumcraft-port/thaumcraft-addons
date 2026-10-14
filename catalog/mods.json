@@ -1,6 +1,6 @@
 {
   "repo": "thaumcraft-port/thaumcraft-addons",
-  "generated_at": "2026-10-14T05:35:29Z",
+  "generated_at": "2026-10-14T05:42:04Z",
   "release_tag": "latest",
   "mc_versions": [
     "1.20.1",
@@ -8,11 +8,11 @@
   ],
   "counts": {
     "1.20.1/experimental": 2,
-    "1.20.1/stable": 8,
+    "1.20.1/stable": 11,
     "1.21.1/experimental": 2,
-    "1.21.1/stable": 6
+    "1.21.1/stable": 9
   },
-  "total": 18,
+  "total": 24,
   "mods": [
     {
       "file": "mods/experimental/1.20.1/thaumic-bases-forge-1.3.1710.4-1.20.1-port.0.1.0-9470460a.jar",
@@ -175,6 +175,123 @@
       ],
       "filename_hint": null,
       "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumic-bases-forge-1.3.1710.4-1.20.1-port.0.1.0-ebf949bf.jar"
+    },
+    {
+      "file": "mods/1.20.1/forbidden-magic-forge-0.574-1.20.1-port.0.1.0-20739.jar",
+      "file_name": "forbidden-magic-forge-0.574-1.20.1-port.0.1.0-20739.jar",
+      "size": 1226090,
+      "sha256": "0c8a201c6f44c57a3f003c42038334dc33ee2ebe1938c3dad9d7b804f6735e30",
+      "channel": "stable",
+      "mc_version": "1.20.1",
+      "loader": "forge",
+      "mod_id": "forbidden_magic",
+      "mod_name": "Forbidden Magic",
+      "mod_version": "0.574-1.20.1-port.0.1.0-20739",
+      "authors": "SpitefulFox; reconstruction contributors",
+      "license": "WTFPL",
+      "description": "Shared-source Forbidden Magic for Thaumcraft 4 Reconstructed.",
+      "tc4": {
+        "raw": "[4.2.3.5-1.20.1-port.0.1.0-20727,)",
+        "lower": "4.2.3.5-1.20.1-port.0.1.0-20727",
+        "base": "4.2.3.5",
+        "mc": "1.20.1",
+        "port": "0.1.0",
+        "build": 20727,
+        "mandatory": true
+      },
+      "thaumic_tinkerer": {
+        "raw": "[0.1.0,)",
+        "lower": "0.1.0",
+        "base": "0.1.0",
+        "mc": null,
+        "port": null,
+        "build": null
+      },
+      "dependencies": [
+        {
+          "owner": "forbidden_magic",
+          "mod_id": "forge",
+          "version_range": "[47.4.10,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "forbidden_magic",
+          "mod_id": "minecraft",
+          "version_range": "[1.20.1]",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "forbidden_magic",
+          "mod_id": "thaumcraft",
+          "version_range": "[4.2.3.5-1.20.1-port.0.1.0-20727,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "forbidden_magic",
+          "mod_id": "curios",
+          "version_range": "[5.14.1,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "forbidden_magic",
+          "mod_id": "thaumictinkerer",
+          "version_range": "[0.1.0,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "forbidden_magic",
+          "mod_id": "botania",
+          "version_range": "[1.20.1-450,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "forbidden_magic",
+          "mod_id": "bloodmagic",
+          "version_range": "[3.3.3,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "forbidden_magic",
+          "mod_id": "twilightforest",
+          "version_range": "[4.3.2508,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "forbidden_magic",
+          "mod_id": "mna",
+          "version_range": "[3.1.11,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        }
+      ],
+      "filename_hint": null,
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/forbidden-magic-forge-0.574-1.20.1-port.0.1.0-20739.jar"
     },
     {
       "file": "mods/1.20.1/forgottenrelics-1.20.1-1.7.3-beta-1.20.1-port.0.1.0.jar",
@@ -579,6 +696,71 @@
       "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/pollution-1.20.1-1.0.0-1.20.1-port.0.1.0.jar"
     },
     {
+      "file": "mods/1.20.1/tainted-magic-forge-8.1.1-1.20.1-port.0.1.0-20739.jar",
+      "file_name": "tainted-magic-forge-8.1.1-1.20.1-port.0.1.0-20739.jar",
+      "size": 3913871,
+      "sha256": "c3e4c4dd0baa2263b3a55cc0fc05a41fe49b48e2c79fa3d9f551f10160788958",
+      "channel": "stable",
+      "mc_version": "1.20.1",
+      "loader": "forge",
+      "mod_id": "tainted_magic",
+      "mod_name": "Tainted Magic",
+      "mod_version": "8.1.1-1.20.1-port.0.1.0-20739",
+      "authors": "Original Tainted Magic authors; reconstruction contributors",
+      "license": "See NOTICE.md",
+      "description": "Tainted Magic for Thaumcraft 4 Reconstructed.",
+      "tc4": {
+        "raw": "[4.2.3.5-1.20.1-port.0.1.0-20739,)",
+        "lower": "4.2.3.5-1.20.1-port.0.1.0-20739",
+        "base": "4.2.3.5",
+        "mc": "1.20.1",
+        "port": "0.1.0",
+        "build": 20739,
+        "mandatory": true
+      },
+      "thaumic_tinkerer": null,
+      "dependencies": [
+        {
+          "owner": "tainted_magic",
+          "mod_id": "forge",
+          "version_range": "[47.4.10,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "tainted_magic",
+          "mod_id": "minecraft",
+          "version_range": "[1.20.1]",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "tainted_magic",
+          "mod_id": "thaumcraft",
+          "version_range": "[4.2.3.5-1.20.1-port.0.1.0-20739,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "tainted_magic",
+          "mod_id": "curios",
+          "version_range": "[5.14.1,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        }
+      ],
+      "filename_hint": null,
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/tainted-magic-forge-8.1.1-1.20.1-port.0.1.0-20739.jar"
+    },
+    {
       "file": "mods/1.20.1/technom-1.20.1-0.1.0-dev.jar",
       "file_name": "technom-1.20.1-0.1.0-dev.jar",
       "size": 1635858,
@@ -725,6 +907,107 @@
       ],
       "filename_hint": null,
       "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumicenergistics-2.3.17-forge-alpha.jar"
+    },
+    {
+      "file": "mods/1.20.1/thaumic-tinkerer-forge-2.5-1.20.1-port.0.1.0-20739.jar",
+      "file_name": "thaumic-tinkerer-forge-2.5-1.20.1-port.0.1.0-20739.jar",
+      "size": 2958794,
+      "sha256": "ad5bd69a20efd76d8f976fda7906709957dd8ed021c324730123c757be5f3bd7",
+      "channel": "stable",
+      "mc_version": "1.20.1",
+      "loader": "forge",
+      "mod_id": "thaumictinkerer",
+      "mod_name": "Thaumic Tinkerer",
+      "mod_version": "2.5-1.20.1-port.0.1.0-20739",
+      "authors": "Vazkii; nekosune; Pixlepix; reconstruction contributors",
+      "license": "CC BY-NC-SA 3.0",
+      "description": "Shared-source Thaumic Tinkerer for Thaumcraft 4 Reconstructed.",
+      "tc4": {
+        "raw": "[4.2.3.5-1.20.1-port.0.1.0-20739,)",
+        "lower": "4.2.3.5-1.20.1-port.0.1.0-20739",
+        "base": "4.2.3.5",
+        "mc": "1.20.1",
+        "port": "0.1.0",
+        "build": 20739,
+        "mandatory": true
+      },
+      "thaumic_tinkerer": null,
+      "dependencies": [
+        {
+          "owner": "thaumictinkerer",
+          "mod_id": "forge",
+          "version_range": "[47.4.10,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumictinkerer",
+          "mod_id": "minecraft",
+          "version_range": "[1.20.1]",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "thaumictinkerer",
+          "mod_id": "thaumcraft",
+          "version_range": "[4.2.3.5-1.20.1-port.0.1.0-20739,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumictinkerer",
+          "mod_id": "curios",
+          "version_range": "[5.14.1,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumictinkerer",
+          "mod_id": "jade",
+          "version_range": "[11.13.2,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "CLIENT",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumictinkerer",
+          "mod_id": "computercraft",
+          "version_range": "[1.116.1,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumictinkerer",
+          "mod_id": "ae2",
+          "version_range": "[15.4.10,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumictinkerer",
+          "mod_id": "botania",
+          "version_range": "[1.20.1-450,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        }
+      ],
+      "filename_hint": null,
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumic-tinkerer-forge-2.5-1.20.1-port.0.1.0-20739.jar"
     },
     {
       "file": "mods/1.20.1/warp-theory-forge-1.5.8-GTNH-1.20.1-port.0.1.0-20739.jar",
@@ -1080,6 +1363,114 @@
       "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumic-bases-neoforge-1.3.1710.4-1.21.1-port.0.1.0-ebf949bf.jar"
     },
     {
+      "file": "mods/1.21.1/forbidden-magic-neoforge-0.574-1.21.1-port.0.1.0-20739.jar",
+      "file_name": "forbidden-magic-neoforge-0.574-1.21.1-port.0.1.0-20739.jar",
+      "size": 1079084,
+      "sha256": "c6ead04a4044165b1a9b737910650a25e5527dec19e5fc37af9ebc3df21847a9",
+      "channel": "stable",
+      "mc_version": "1.21.1",
+      "loader": "neoforge",
+      "mod_id": "forbidden_magic",
+      "mod_name": "Forbidden Magic",
+      "mod_version": "0.574-1.21.1-port.0.1.0-20739",
+      "authors": "SpitefulFox; reconstruction contributors",
+      "license": "WTFPL",
+      "description": "Shared-source Forbidden Magic for Thaumcraft 4 Reconstructed.",
+      "tc4": {
+        "raw": "[4.2.3.5-1.21.1-port.0.1.0-20727,)",
+        "lower": "4.2.3.5-1.21.1-port.0.1.0-20727",
+        "base": "4.2.3.5",
+        "mc": "1.21.1",
+        "port": "0.1.0",
+        "build": 20727,
+        "mandatory": true
+      },
+      "thaumic_tinkerer": {
+        "raw": "[0.1.0,)",
+        "lower": "0.1.0",
+        "base": "0.1.0",
+        "mc": null,
+        "port": null,
+        "build": null
+      },
+      "dependencies": [
+        {
+          "owner": "forbidden_magic",
+          "mod_id": "neoforge",
+          "version_range": "[21.1.248,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "forbidden_magic",
+          "mod_id": "minecraft",
+          "version_range": "[1.21.1]",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "forbidden_magic",
+          "mod_id": "thaumcraft",
+          "version_range": "[4.2.3.5-1.21.1-port.0.1.0-20727,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "forbidden_magic",
+          "mod_id": "curios",
+          "version_range": "[9.5.1,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "forbidden_magic",
+          "mod_id": "thaumictinkerer",
+          "version_range": "[0.1.0,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "forbidden_magic",
+          "mod_id": "botania",
+          "version_range": "[456-SNAPSHOT,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "forbidden_magic",
+          "mod_id": "twilightforest",
+          "version_range": "[4.8.3345,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "forbidden_magic",
+          "mod_id": "neovitae",
+          "version_range": "[1.1.34,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        }
+      ],
+      "filename_hint": null,
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/forbidden-magic-neoforge-0.574-1.21.1-port.0.1.0-20739.jar"
+    },
+    {
       "file": "mods/1.21.1/isorropia-1.21.1-0.1.0-dev.jar",
       "file_name": "isorropia-1.21.1-0.1.0-dev.jar",
       "size": 4239758,
@@ -1199,6 +1590,71 @@
       ],
       "filename_hint": null,
       "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/nodal-mechanics-neoforge-1.0.7-port.0.1.0-20739.jar"
+    },
+    {
+      "file": "mods/1.21.1/tainted-magic-neoforge-8.1.1-1.21.1-port.0.1.0-20739.jar",
+      "file_name": "tainted-magic-neoforge-8.1.1-1.21.1-port.0.1.0-20739.jar",
+      "size": 3844596,
+      "sha256": "8ba18c2064ff2bd772674fda46ef77304669268d2ab50d5f11c490fe67f888e1",
+      "channel": "stable",
+      "mc_version": "1.21.1",
+      "loader": "neoforge",
+      "mod_id": "tainted_magic",
+      "mod_name": "Tainted Magic",
+      "mod_version": "8.1.1-1.21.1-port.0.1.0-20739",
+      "authors": "Original Tainted Magic authors; reconstruction contributors",
+      "license": "See NOTICE.md",
+      "description": "Tainted Magic for Thaumcraft 4 Reconstructed.",
+      "tc4": {
+        "raw": "[4.2.3.5-1.21.1-port.0.1.0,)",
+        "lower": "4.2.3.5-1.21.1-port.0.1.0",
+        "base": "4.2.3.5",
+        "mc": null,
+        "port": null,
+        "build": null,
+        "mandatory": true
+      },
+      "thaumic_tinkerer": null,
+      "dependencies": [
+        {
+          "owner": "tainted_magic",
+          "mod_id": "neoforge",
+          "version_range": "[21.1.248,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "tainted_magic",
+          "mod_id": "minecraft",
+          "version_range": "[1.21.1]",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "tainted_magic",
+          "mod_id": "thaumcraft",
+          "version_range": "[4.2.3.5-1.21.1-port.0.1.0,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "tainted_magic",
+          "mod_id": "curios",
+          "version_range": "[9.5.1,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        }
+      ],
+      "filename_hint": null,
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/tainted-magic-neoforge-8.1.1-1.21.1-port.0.1.0-20739.jar"
     },
     {
       "file": "mods/1.21.1/thaumicenergistics-1.21.1-neo-2.4.18-alpha.jar",
@@ -1338,6 +1794,107 @@
       ],
       "filename_hint": null,
       "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/technom-1.21.1-neoforge-0.1.0-dev.jar"
+    },
+    {
+      "file": "mods/1.21.1/thaumic-tinkerer-neoforge-2.5-1.21.1-port.0.1.0-20739.jar",
+      "file_name": "thaumic-tinkerer-neoforge-2.5-1.21.1-port.0.1.0-20739.jar",
+      "size": 2741785,
+      "sha256": "37fa8d55b8fa1c5b254db44f6d088cdca99fe08cb30d0b7b3135273ffd6c6feb",
+      "channel": "stable",
+      "mc_version": "1.21.1",
+      "loader": "neoforge",
+      "mod_id": "thaumictinkerer",
+      "mod_name": "Thaumic Tinkerer",
+      "mod_version": "2.5-1.21.1-port.0.1.0-20739",
+      "authors": "Vazkii; nekosune; Pixlepix; reconstruction contributors",
+      "license": "CC BY-NC-SA 3.0",
+      "description": "Shared-source Thaumic Tinkerer for Thaumcraft 4 Reconstructed.",
+      "tc4": {
+        "raw": "[4.2.3.5-1.21.1-port.0.1.0-20711,)",
+        "lower": "4.2.3.5-1.21.1-port.0.1.0-20711",
+        "base": "4.2.3.5",
+        "mc": "1.21.1",
+        "port": "0.1.0",
+        "build": 20711,
+        "mandatory": true
+      },
+      "thaumic_tinkerer": null,
+      "dependencies": [
+        {
+          "owner": "thaumictinkerer",
+          "mod_id": "neoforge",
+          "version_range": "[21.1.248,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumictinkerer",
+          "mod_id": "minecraft",
+          "version_range": "[1.21.1]",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "thaumictinkerer",
+          "mod_id": "thaumcraft",
+          "version_range": "[4.2.3.5-1.21.1-port.0.1.0-20711,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumictinkerer",
+          "mod_id": "curios",
+          "version_range": "[9.5.1,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumictinkerer",
+          "mod_id": "jade",
+          "version_range": "[15.10.6+neoforge,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "CLIENT",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumictinkerer",
+          "mod_id": "computercraft",
+          "version_range": "[1.120.2,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumictinkerer",
+          "mod_id": "ae2",
+          "version_range": "[19.2.17,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumictinkerer",
+          "mod_id": "botania",
+          "version_range": "[456-SNAPSHOT,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        }
+      ],
+      "filename_hint": null,
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumic-tinkerer-neoforge-2.5-1.21.1-port.0.1.0-20739.jar"
     },
     {
       "file": "mods/1.21.1/warp-theory-neoforge-1.5.8-GTNH-1.21.1-port.0.1.0-20739.jar",

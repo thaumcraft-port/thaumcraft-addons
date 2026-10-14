@@ -355,7 +355,10 @@ def read_jar_metadata(path: str) -> Dict[str, Any]:
 # --------------------------------------------------------------------------- #
 def scan_mod(path: str, repo_root: str = ".", channel: Optional[str] = None) -> Dict[str, Any]:
     """Scan one jar and return the canonical catalog record."""
-    rel = os.path.relpath(path, repo_root).replace("\\", "/")
+    try:
+        rel = os.path.relpath(path, repo_root).replace("\\", "/")
+    except ValueError:  # different drive on Windows
+        rel = os.path.basename(path)
     rel_dir = os.path.dirname(rel)
     parts = rel_dir.split("/")
     if channel is None:
