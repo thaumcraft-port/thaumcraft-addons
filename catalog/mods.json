@@ -1,19 +1,100 @@
 {
   "repo": "thaumcraft-port/thaumcraft-addons",
-  "generated_at": "2026-10-14T18:09:48Z",
+  "generated_at": "2026-10-14T18:44:22Z",
   "release_tag": "latest",
   "mc_versions": [
     "1.20.1",
     "1.21.1"
   ],
   "counts": {
-    "1.20.1/experimental": 2,
+    "1.20.1/experimental": 3,
     "1.20.1/stable": 12,
-    "1.21.1/experimental": 2,
+    "1.21.1/experimental": 3,
     "1.21.1/stable": 10
   },
-  "total": 26,
+  "total": 28,
   "mods": [
+    {
+      "file": "mods/experimental/1.20.1/thaumic-bases-forge-1.3.1710.4-1.20.1-port.0.1.0-26c67473.jar",
+      "file_name": "thaumic-bases-forge-1.3.1710.4-1.20.1-port.0.1.0-26c67473.jar",
+      "size": 3034508,
+      "sha256": "7c6742eef8c011d010bff742f51530189227793a94336a7f6f5c3d3ddc269d8d",
+      "channel": "experimental",
+      "mc_version": "1.20.1",
+      "loader": "forge",
+      "mod_id": "thaumicbases",
+      "mod_name": "Thaumic Bases",
+      "mod_version": "1.3.1710.4-1.20.1-port.0.1.0-26c67473",
+      "authors": "Modbder, Reconstruction contributors",
+      "license": "CC0-1.0",
+      "description": "Thaumic Bases for Thaumcraft 4 Reconstructed, compiled from one shared gameplay and resource tree.",
+      "tc4": {
+        "raw": "[4.2.3.5-1.20.1-port.0.1.0-26c67473,)",
+        "lower": "4.2.3.5-1.20.1-port.0.1.0-26c67473",
+        "base": "4.2.3.5",
+        "mc": null,
+        "port": null,
+        "build": null,
+        "mandatory": true
+      },
+      "thaumic_tinkerer": {
+        "raw": "[2.5-1.20.1-port.0.1.0-26c67473,)",
+        "lower": "2.5-1.20.1-port.0.1.0-26c67473",
+        "base": "2.5",
+        "mc": null,
+        "port": null,
+        "build": null
+      },
+      "dependencies": [
+        {
+          "owner": "thaumicbases",
+          "mod_id": "forge",
+          "version_range": "[47.4.10,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumicbases",
+          "mod_id": "minecraft",
+          "version_range": "[1.20.1]",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "thaumicbases",
+          "mod_id": "thaumcraft",
+          "version_range": "[4.2.3.5-1.20.1-port.0.1.0-26c67473,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumicbases",
+          "mod_id": "curios",
+          "version_range": "*",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumicbases",
+          "mod_id": "thaumictinkerer",
+          "version_range": "[2.5-1.20.1-port.0.1.0-26c67473,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        }
+      ],
+      "filename_hint": null,
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumic-bases-forge-1.3.1710.4-1.20.1-port.0.1.0-26c67473.jar"
+    },
     {
       "file": "mods/experimental/1.20.1/thaumic-bases-forge-1.3.1710.4-1.20.1-port.0.1.0-9470460a.jar",
       "file_name": "thaumic-bases-forge-1.3.1710.4-1.20.1-port.0.1.0-9470460a.jar",
@@ -1255,6 +1336,87 @@
       ],
       "filename_hint": null,
       "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/huixuantiangong-forge-1.20.1-1.30.12.jar"
+    },
+    {
+      "file": "mods/experimental/1.21.1/thaumic-bases-neoforge-1.3.1710.4-1.21.1-port.0.1.0-26c67473.jar",
+      "file_name": "thaumic-bases-neoforge-1.3.1710.4-1.21.1-port.0.1.0-26c67473.jar",
+      "size": 2855168,
+      "sha256": "2d2a98dc9b74352a9c77a7c702d19d74669fbcc0ceffc3b29f0e2cbfeced6cc1",
+      "channel": "experimental",
+      "mc_version": "1.21.1",
+      "loader": "neoforge",
+      "mod_id": "thaumicbases",
+      "mod_name": "Thaumic Bases",
+      "mod_version": "1.3.1710.4-1.21.1-port.0.1.0-26c67473",
+      "authors": "Modbder, Reconstruction contributors",
+      "license": "CC0-1.0",
+      "description": "Thaumic Bases for Thaumcraft 4 Reconstructed, compiled from one shared gameplay and resource tree.",
+      "tc4": {
+        "raw": "[4.2.3.5-1.21.1-port.0.1.0-26c67473,)",
+        "lower": "4.2.3.5-1.21.1-port.0.1.0-26c67473",
+        "base": "4.2.3.5",
+        "mc": null,
+        "port": null,
+        "build": null,
+        "mandatory": true
+      },
+      "thaumic_tinkerer": {
+        "raw": "[2.5-1.21.1-port.0.1.0-26c67473,)",
+        "lower": "2.5-1.21.1-port.0.1.0-26c67473",
+        "base": "2.5",
+        "mc": null,
+        "port": null,
+        "build": null
+      },
+      "dependencies": [
+        {
+          "owner": "thaumicbases",
+          "mod_id": "neoforge",
+          "version_range": "[21.1.248,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumicbases",
+          "mod_id": "minecraft",
+          "version_range": "[1.21.1]",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "thaumicbases",
+          "mod_id": "thaumcraft",
+          "version_range": "[4.2.3.5-1.21.1-port.0.1.0-26c67473,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumicbases",
+          "mod_id": "curios",
+          "version_range": "*",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumicbases",
+          "mod_id": "thaumictinkerer",
+          "version_range": "[2.5-1.21.1-port.0.1.0-26c67473,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        }
+      ],
+      "filename_hint": null,
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumic-bases-neoforge-1.3.1710.4-1.21.1-port.0.1.0-26c67473.jar"
     },
     {
       "file": "mods/experimental/1.21.1/thaumic-bases-neoforge-1.3.1710.4-1.21.1-port.0.1.0-9470460a.jar",

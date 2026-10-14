@@ -21,7 +21,7 @@
 - 🔍 仓库自带脚本，自动读取每个模组声明的 **TC4R 依赖基线与最低构建号**。
 - ✅ 每次提交 / PR 都由 GitHub Actions 自动校验（元数据、目录规范、依赖声明、README 是否最新）。
 
-> 当前共收录 **26** 个模组文件，数据由 `catalog/mods.json` 自动生成。
+> 当前共收录 **28** 个模组文件，数据由 `catalog/mods.json` 自动生成。
 
 ## 📥 下载
 
@@ -67,6 +67,7 @@
 
 | 模组 | modId | 版本 | 加载器 | TC4R 要求 | 大小 | 下载 |
 | --- | --- | --- | --- | --- | --- | --- |
+| Thaumic Bases | `thaumicbases` | `1.3.1710.4-1.20.1-port.0.1.0-26c67473` | Forge | ≥ 4.2.3.5 | 2.9 MB | [下载](https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumic-bases-forge-1.3.1710.4-1.20.1-port.0.1.0-26c67473.jar) |
 | Thaumic Bases | `thaumicbases` | `1.3.1710.4-1.20.1-port.0.1.0-9470460a` | Forge | ≥ 4.2.3.5 (build 20738) | 2.9 MB | [下载](https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumic-bases-forge-1.3.1710.4-1.20.1-port.0.1.0-9470460a.jar) |
 | Thaumic Bases | `thaumicbases` | `1.3.1710.4-1.20.1-port.0.1.0-ebf949bf` | Forge | ≥ 4.2.3.5 (build 20732) | 2.9 MB | [下载](https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumic-bases-forge-1.3.1710.4-1.20.1-port.0.1.0-ebf949bf.jar) |
 
@@ -74,6 +75,7 @@
 
 | 模组 | modId | 版本 | 加载器 | TC4R 要求 | 大小 | 下载 |
 | --- | --- | --- | --- | --- | --- | --- |
+| Thaumic Bases | `thaumicbases` | `1.3.1710.4-1.21.1-port.0.1.0-26c67473` | NeoForge | ≥ 4.2.3.5 | 2.7 MB | [下载](https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumic-bases-neoforge-1.3.1710.4-1.21.1-port.0.1.0-26c67473.jar) |
 | Thaumic Bases | `thaumicbases` | `1.3.1710.4-1.21.1-port.0.1.0-9470460a` | NeoForge | ≥ 4.2.3.5 (build 20738) | 2.7 MB | [下载](https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumic-bases-neoforge-1.3.1710.4-1.21.1-port.0.1.0-9470460a.jar) |
 | Thaumic Bases | `thaumicbases` | `1.3.1710.4-1.21.1-port.0.1.0-ebf949bf` | NeoForge | ≥ 4.2.3.5 (build 20732) | 2.7 MB | [下载](https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumic-bases-neoforge-1.3.1710.4-1.21.1-port.0.1.0-ebf949bf.jar) |
 
@@ -174,6 +176,7 @@
 | Tainted Magic | 1.20.1 | Forge | `8.1.1-1.20.1-port.0.1.0-20739` | 4.2.3.5 | 20739 | 正式 |
 | Technomancy Unofficial | 1.20.1 | Forge | `0.1.0-dev` | 4.2.3.5 | 20721 | 正式 |
 | Thaumcraft Client Tweaks | 1.20.1 | Forge | `1.1.5` | 4.2.3.5 | 20740 | 正式 |
+| Thaumic Bases | 1.20.1 | Forge | `1.3.1710.4-1.20.1-port.0.1.0-26c67473` | 4.2.3.5 | 任意 | 实验 |
 | Thaumic Bases | 1.20.1 | Forge | `1.3.1710.4-1.20.1-port.0.1.0-9470460a` | 4.2.3.5 | 20738 | 实验 |
 | Thaumic Bases | 1.20.1 | Forge | `1.3.1710.4-1.20.1-port.0.1.0-ebf949bf` | 4.2.3.5 | 20732 | 实验 |
 | Thaumic Horizons | 1.20.1 | Forge | `0.1.0-dev` | 4.2.3.5 | 20732 | 正式 |
@@ -186,6 +189,7 @@
 | Tainted Magic | 1.21.1 | NeoForge | `8.1.1-1.21.1-port.0.1.0-20740` | 4.2.3.5 | 任意 | 正式 |
 | Technomancy Unofficial | 1.21.1 | NeoForge | `0.1.0-dev` | 4.2.3.5 | 20736 | 正式 |
 | Thaumcraft Client Tweaks | 1.21.1 | NeoForge | `1.1.5` | 4.2.3.5 | 20740 | 正式 |
+| Thaumic Bases | 1.21.1 | NeoForge | `1.3.1710.4-1.21.1-port.0.1.0-26c67473` | 4.2.3.5 | 任意 | 实验 |
 | Thaumic Bases | 1.21.1 | NeoForge | `1.3.1710.4-1.21.1-port.0.1.0-9470460a` | 4.2.3.5 | 20738 | 实验 |
 | Thaumic Bases | 1.21.1 | NeoForge | `1.3.1710.4-1.21.1-port.0.1.0-ebf949bf` | 4.2.3.5 | 20732 | 实验 |
 | Thaumic Horizons | 1.21.1 | NeoForge | `0.1.0-dev` | 4.2.3.5 | 20736 | 正式 |
@@ -201,6 +205,7 @@
 
 | 文件 | SHA-256 |
 | --- | --- |
+| `thaumic-bases-forge-1.3.1710.4-1.20.1-port.0.1.0-26c67473.jar` | `7c6742eef8c011d010bff742f51530189227793a94336a7f6f5c3d3ddc269d8d` |
 | `thaumic-bases-forge-1.3.1710.4-1.20.1-port.0.1.0-9470460a.jar` | `5c7b565e60116a47373514a8ca42649ead14175a42fa73b3ea7e60f2d80ac50d` |
 | `thaumic-bases-forge-1.3.1710.4-1.20.1-port.0.1.0-ebf949bf.jar` | `e48b6db8b990f0bc872e4b5c85b457b453ae0ca1fd690db5723fda65840b2204` |
 | `forbidden-magic-forge-0.574-1.20.1-port.0.1.0-20739.jar` | `0c8a201c6f44c57a3f003c42038334dc33ee2ebe1938c3dad9d7b804f6735e30` |
@@ -215,6 +220,7 @@
 | `thaumic-tinkerer-forge-2.5-1.20.1-port.0.1.0-20739.jar` | `ad5bd69a20efd76d8f976fda7906709957dd8ed021c324730123c757be5f3bd7` |
 | `warp-theory-forge-1.5.8-GTNH-1.20.1-port.0.1.0-20739.jar` | `e019943968cb24c6813a5c7c3c389892c3b05ce6a9d3adfa36f9fd1e02310450` |
 | `huixuantiangong-forge-1.20.1-1.30.12.jar` | `54c9d9c997c1dacaa0a19f7fdef8480f867923f7373b2ca800d6e027841746ff` |
+| `thaumic-bases-neoforge-1.3.1710.4-1.21.1-port.0.1.0-26c67473.jar` | `2d2a98dc9b74352a9c77a7c702d19d74669fbcc0ceffc3b29f0e2cbfeced6cc1` |
 | `thaumic-bases-neoforge-1.3.1710.4-1.21.1-port.0.1.0-9470460a.jar` | `8ed6299663195abcdde4fccc3d58f2e2028d7decf0d1c844f6f128edfc814d05` |
 | `thaumic-bases-neoforge-1.3.1710.4-1.21.1-port.0.1.0-ebf949bf.jar` | `ce190dadbb3d28d25ff709b7a7c09177328abb1f1bd2afe014b5b6e3e909270e` |
 | `forbidden-magic-neoforge-0.574-1.21.1-port.0.1.0-20740.jar` | `a5b5b16e35e73dbaf7cc26a9d55e0b1d5063dbf4e5eaddfe883eb228ed7f2607` |
@@ -251,4 +257,4 @@ git push
 
 ---
 
-<sub>本 README 由 `scripts/gen_readme.py` 依据 `catalog/mods.json` 自动生成，请勿手工编辑；如需修改请编辑 `README.template.md`。生成时间：2026-10-14T18:09:38Z</sub>
+<sub>本 README 由 `scripts/gen_readme.py` 依据 `catalog/mods.json` 自动生成，请勿手工编辑；如需修改请编辑 `README.template.md`。生成时间：2026-10-14T18:44:14Z</sub>
