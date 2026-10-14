@@ -90,6 +90,23 @@ def _as_text(value: Any) -> str:
     return str(value).strip()
 
 
+def _fix_mojibake(value: str) -> str:
+    """Repair UTF-8 text that was mistakenly decoded as Latin-1 (double encoding).
+
+    Some ported mods ship metadata where Chinese was UTF-8 encoded, then
+    misread as Latin-1 and re-encoded, producing sequences like ``ç¥ç§``.
+    Reversing latin-1 -> utf-8 recovers the original text. Strings already
+    containing non-Latin-1 characters (i.e. proper CJK) are left untouched.
+    """
+    if not value or any(ord(c) > 0xFF for c in value):
+        return value
+    try:
+        fixed = value.encode("latin-1").decode("utf-8")
+    except (UnicodeEncodeError, UnicodeDecodeError):
+        return value
+    return fixed if fixed != value else value
+
+
 def _first_bound(version_range: str) -> str:
     """Return the lower bound token of a Maven-style version range."""
     rng = (version_range or "").strip()
@@ -282,10 +299,10 @@ def _normalise_toml(data: Dict[str, Any], loader: str) -> Dict[str, Any]:
     return {
         "loader": loader,
         "mod_id": mod.get("modId", ""),
-        "mod_name": mod.get("displayName") or mod.get("modId", ""),
+        "mod_name": _fix_mojibake(mod.get("displayName") or mod.get("modId", "")),
         "mod_version": str(mod.get("version", "")),
-        "authors": _as_text(mod.get("authors")),
-        "description": (mod.get("description") or "").strip(),
+        "authors": _fix_mojibake(_as_text(mod.get("authors"))),
+        "description": _fix_mojibake((mod.get("description") or "").strip()),
         "license": data.get("license", ""),
         "loader_version": data.get("loaderVersion", ""),
         "dependencies": deps,
@@ -321,10 +338,10 @@ def _normalise_fabric(data: Dict[str, Any]) -> Dict[str, Any]:
     return {
         "loader": "fabric",
         "mod_id": data.get("id", ""),
-        "mod_name": data.get("name") or data.get("id", ""),
+        "mod_name": _fix_mojibake(data.get("name") or data.get("id", "")),
         "mod_version": str(data.get("version", "")),
-        "authors": _as_text(data.get("authors")),
-        "description": (data.get("description") or "").strip(),
+        "authors": _fix_mojibake(_as_text(data.get("authors"))),
+        "description": _fix_mojibake((data.get("description") or "").strip()),
         "license": data.get("license", ""),
         "loader_version": "",
         "dependencies": deps,

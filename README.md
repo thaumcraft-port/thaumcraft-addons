@@ -119,7 +119,7 @@
 
 ### Thaumic Horizons (`isorropia`)
 
-> Thaumic Horizons (Isorropia) for Thaumcraft 4 Reborn on Minecraft 1.20.1 Forge and 1.21.1 NeoForge. / ç¥ç§è§çï¼ä¸ºç¥ç§æ¶ä»£4éççå¸¦æ¥çç©æ³¨é­ãæºè´¨æºæ¢°ä¸å£è¢ä½é¢ã
+> Thaumic Horizons (Isorropia) for Thaumcraft 4 Reborn on Minecraft 1.20.1 Forge and 1.21.1 NeoForge. / 神秘视界：为神秘时代4重生版带来生物注魔、源质机械与口袋位面。
 
 - **Minecraft 1.20.1** · Forge · 模组版本 `0.1.0-dev` · 需要 ≥ 4.2.3.5 (build 20732) · [下载](https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/isorropia-1.20.1-0.1.0-dev.jar)
 - **Minecraft 1.21.1** · NeoForge · 模组版本 `0.1.0-dev` · 需要 ≥ 4.2.3.5 (build 20736) · [下载](https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/isorropia-1.21.1-0.1.0-dev.jar)
@@ -238,4 +238,4 @@ git push
 
 ---
 
-<sub>本 README 由 `scripts/gen_readme.py` 依据 `catalog/mods.json` 自动生成，请勿手工编辑；如需修改请编辑 `README.template.md`。生成时间：2026-10-14T05:41:56Z</sub>
+<sub>本 README 由 `scripts/gen_readme.py` 依据 `catalog/mods.json` 自动生成，请勿手工编辑；如需修改请编辑 `README.template.md`。生成时间：2026-10-14T05:48:33Z</sub>

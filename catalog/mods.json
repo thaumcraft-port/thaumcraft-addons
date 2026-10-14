@@ -1,6 +1,6 @@
 {
   "repo": "thaumcraft-port/thaumcraft-addons",
-  "generated_at": "2026-10-14T05:42:04Z",
+  "generated_at": "2026-10-14T05:49:04Z",
   "release_tag": "latest",
   "mc_versions": [
     "1.20.1",
@@ -398,7 +398,7 @@
       "mod_version": "0.1.0-dev",
       "authors": "wind_blade, keletu, IcarussOne; unofficial port contributors",
       "license": "All Rights Reserved",
-      "description": "Thaumic Horizons (Isorropia) for Thaumcraft 4 Reborn on Minecraft 1.20.1 Forge and 1.21.1 NeoForge. / ç¥ç§è§çï¼ä¸ºç¥ç§æ¶ä»£4éççå¸¦æ¥çç©æ³¨é­ãæºè´¨æºæ¢°ä¸å£è¢ä½é¢ã",
+      "description": "Thaumic Horizons (Isorropia) for Thaumcraft 4 Reborn on Minecraft 1.20.1 Forge and 1.21.1 NeoForge. / 神秘视界：为神秘时代4重生版带来生物注魔、源质机械与口袋位面。",
       "tc4": {
         "raw": "[4.2.3.5-1.20.1-port.0.1.0-20732]",
         "lower": "4.2.3.5-1.20.1-port.0.1.0-20732",
@@ -1483,7 +1483,7 @@
       "mod_version": "0.1.0-dev",
       "authors": "wind_blade, keletu, IcarussOne; unofficial port contributors",
       "license": "All Rights Reserved",
-      "description": "Thaumic Horizons (Isorropia) for Thaumcraft 4 Reborn on Minecraft 1.20.1 Forge and 1.21.1 NeoForge. / ç¥ç§è§çï¼ä¸ºç¥ç§æ¶ä»£4éççå¸¦æ¥çç©æ³¨é­ãæºè´¨æºæ¢°ä¸å£è¢ä½é¢ã",
+      "description": "Thaumic Horizons (Isorropia) for Thaumcraft 4 Reborn on Minecraft 1.20.1 Forge and 1.21.1 NeoForge. / 神秘视界：为神秘时代4重生版带来生物注魔、源质机械与口袋位面。",
       "tc4": {
         "raw": "[4.2.3.5-1.21.1-port.0.1.0-20736]",
         "lower": "4.2.3.5-1.21.1-port.0.1.0-20736",
