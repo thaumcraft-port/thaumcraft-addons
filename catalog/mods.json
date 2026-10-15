@@ -1,6 +1,6 @@
 {
   "repo": "thaumcraft-port/thaumcraft-addons",
-  "generated_at": "2026-10-15T01:17:37Z",
+  "generated_at": "2026-10-15T14:05:37Z",
   "release_tag": "latest",
   "mc_versions": [
     "1.20.1",
@@ -467,26 +467,26 @@
       "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/forgottenrelics-1.20.1-1.7.3-beta-1.20.1-port.0.1.0.jar"
     },
     {
-      "file": "mods/1.20.1/isorropia-1.20.1-0.1.0-dev.jar",
-      "file_name": "isorropia-1.20.1-0.1.0-dev.jar",
-      "size": 4248504,
-      "sha256": "1b12ba6d767990109309d6c6dc51f900c724b52c463302e68f647af088a2898e",
+      "file": "mods/1.20.1/isorropia-1.20.1-1.0.0-alpha.jar",
+      "file_name": "isorropia-1.20.1-1.0.0-alpha.jar",
+      "size": 4251898,
+      "sha256": "3c7057a3840d8f7194b69a0ed4dea5d5ee9f87ccc9aaeb32bfce44d69772acb4",
       "channel": "stable",
       "mc_version": "1.20.1",
       "loader": "forge",
       "mod_id": "isorropia",
       "mod_name": "Thaumic Horizons",
-      "mod_version": "0.1.0-dev",
+      "mod_version": "1.0.0-alpha",
       "authors": "wind_blade, keletu, IcarussOne; unofficial port contributors",
       "license": "All Rights Reserved",
       "description": "Thaumic Horizons (Isorropia) for Thaumcraft 4 Reborn on Minecraft 1.20.1 Forge and 1.21.1 NeoForge. / 神秘视界：为神秘时代4重生版带来生物注魔、源质机械与口袋位面。",
       "tc4": {
-        "raw": "[4.2.3.5-1.20.1-port.0.1.0-20732]",
-        "lower": "4.2.3.5-1.20.1-port.0.1.0-20732",
+        "raw": "[4.2.3.5-1.20.1-port.0.1.0-20740,)",
+        "lower": "4.2.3.5-1.20.1-port.0.1.0-20740",
         "base": "4.2.3.5",
         "mc": "1.20.1",
         "port": "0.1.0",
-        "build": 20732,
+        "build": 20740,
         "mandatory": true
       },
       "thaumic_tinkerer": null,
@@ -512,7 +512,7 @@
         {
           "owner": "isorropia",
           "mod_id": "thaumcraft",
-          "version_range": "[4.2.3.5-1.20.1-port.0.1.0-20732]",
+          "version_range": "[4.2.3.5-1.20.1-port.0.1.0-20740,)",
           "mandatory": true,
           "type": "required",
           "side": "BOTH",
@@ -529,7 +529,7 @@
         }
       ],
       "filename_hint": null,
-      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/isorropia-1.20.1-0.1.0-dev.jar"
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/isorropia-1.20.1-1.0.0-alpha.jar"
     },
     {
       "file": "mods/1.20.1/nodal-mechanics-forge-1.0.7-port.0.1.0-20739.jar",
@@ -900,8 +900,8 @@
     {
       "file": "mods/1.20.1/technom-1.20.1-0.1.0-dev.jar",
       "file_name": "technom-1.20.1-0.1.0-dev.jar",
-      "size": 1639488,
-      "sha256": "15f954c73d17ffd056e58d6771ff402b1c8d9e65881cf94ab2019db079cf52f5",
+      "size": 1642004,
+      "sha256": "c9d741a2a0c59b9584b197323ed98e7ef7de468f2e8007a79cd748427f402825",
       "channel": "stable",
       "mc_version": "1.20.1",
       "loader": "forge",
@@ -912,12 +912,12 @@
       "license": "Apache-2.0",
       "description": "Unofficial Technomancy port: essentia-powered machinery, node engineering, rituals, and a shared FE/EU energy system.",
       "tc4": {
-        "raw": "[4.2.3.5-1.20.1-port.0.1.0-20721]",
-        "lower": "4.2.3.5-1.20.1-port.0.1.0-20721",
+        "raw": "[4.2.3.5-1.20.1-port.0.1.0-20740,)",
+        "lower": "4.2.3.5-1.20.1-port.0.1.0-20740",
         "base": "4.2.3.5",
         "mc": "1.20.1",
         "port": "0.1.0",
-        "build": 20721,
+        "build": 20740,
         "mandatory": true
       },
       "thaumic_tinkerer": null,
@@ -943,7 +943,7 @@
         {
           "owner": "technom",
           "mod_id": "thaumcraft",
-          "version_range": "[4.2.3.5-1.20.1-port.0.1.0-20721]",
+          "version_range": "[4.2.3.5-1.20.1-port.0.1.0-20740,)",
           "mandatory": true,
           "type": "required",
           "side": "BOTH",
@@ -955,6 +955,15 @@
           "version_range": "[7.5.3]",
           "mandatory": false,
           "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "technom",
+          "mod_id": "botania",
+          "version_range": "[1.20.1-454-FORGE,)",
+          "mandatory": true,
+          "type": "required",
           "side": "BOTH",
           "ordering": "AFTER"
         }
@@ -1149,8 +1158,8 @@
     {
       "file": "mods/1.20.1/warpfx-1.20.1-forge-0.1.0.jar",
       "file_name": "warpfx-1.20.1-forge-0.1.0.jar",
-      "size": 69252,
-      "sha256": "2463565a8702ebef1d0ac84beeee2c1734a65ef140d36cc22210fadfde30c8d8",
+      "size": 69251,
+      "sha256": "9742a59cc2fa5725045ade274ad975d849ba436087539383fec28e5d3be513fb",
       "channel": "stable",
       "mc_version": "1.20.1",
       "loader": "forge",
@@ -1763,26 +1772,26 @@
       "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/forbidden-magic-neoforge-0.574-1.21.1-port.0.1.0-20740.jar"
     },
     {
-      "file": "mods/1.21.1/isorropia-1.21.1-0.1.0-dev.jar",
-      "file_name": "isorropia-1.21.1-0.1.0-dev.jar",
-      "size": 4241412,
-      "sha256": "86fa5590046189a6252e1096e5295617886401559b9e74763c94ebeb44ea9ebb",
+      "file": "mods/1.21.1/isorropia-1.21.1-1.0.0-alpha.jar",
+      "file_name": "isorropia-1.21.1-1.0.0-alpha.jar",
+      "size": 4243780,
+      "sha256": "190ff7c63ebf68845d00057444d2b05640b03c74ef675db211d3a7066e6cb861",
       "channel": "stable",
       "mc_version": "1.21.1",
       "loader": "neoforge",
       "mod_id": "isorropia",
       "mod_name": "Thaumic Horizons",
-      "mod_version": "0.1.0-dev",
+      "mod_version": "1.0.0-alpha",
       "authors": "wind_blade, keletu, IcarussOne; unofficial port contributors",
       "license": "All Rights Reserved",
       "description": "Thaumic Horizons (Isorropia) for Thaumcraft 4 Reborn on Minecraft 1.20.1 Forge and 1.21.1 NeoForge. / 神秘视界：为神秘时代4重生版带来生物注魔、源质机械与口袋位面。",
       "tc4": {
-        "raw": "[4.2.3.5-1.21.1-port.0.1.0-20736]",
-        "lower": "4.2.3.5-1.21.1-port.0.1.0-20736",
+        "raw": "[4.2.3.5-1.21.1-port.0.1.0-20740,)",
+        "lower": "4.2.3.5-1.21.1-port.0.1.0-20740",
         "base": "4.2.3.5",
         "mc": "1.21.1",
         "port": "0.1.0",
-        "build": 20736,
+        "build": 20740,
         "mandatory": true
       },
       "thaumic_tinkerer": null,
@@ -1808,7 +1817,7 @@
         {
           "owner": "isorropia",
           "mod_id": "thaumcraft",
-          "version_range": "[4.2.3.5-1.21.1-port.0.1.0-20736]",
+          "version_range": "[4.2.3.5-1.21.1-port.0.1.0-20740,)",
           "mandatory": true,
           "type": "required",
           "side": "BOTH",
@@ -1825,7 +1834,7 @@
         }
       ],
       "filename_hint": null,
-      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/isorropia-1.21.1-0.1.0-dev.jar"
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/isorropia-1.21.1-1.0.0-alpha.jar"
     },
     {
       "file": "mods/1.21.1/nodal-mechanics-neoforge-1.0.7-port.0.1.0-20740.jar",
@@ -2081,8 +2090,8 @@
     {
       "file": "mods/1.21.1/technom-1.21.1-neoforge-0.1.0-dev.jar",
       "file_name": "technom-1.21.1-neoforge-0.1.0-dev.jar",
-      "size": 1608738,
-      "sha256": "8ca10b90ac3c3efd5969d31f4b0afb9b899848f22db0b090076150f5d33265a7",
+      "size": 1607968,
+      "sha256": "20d4188d2232a60ca4984b97e8f42323adbbea9ac1cad7cac5d45fb047f45716",
       "channel": "stable",
       "mc_version": "1.21.1",
       "loader": "neoforge",
@@ -2093,12 +2102,12 @@
       "license": "Apache-2.0",
       "description": "Unofficial Technomancy port: essentia-powered machinery, node engineering, rituals, and a shared FE/EU energy system.",
       "tc4": {
-        "raw": "[4.2.3.5-1.21.1-port.0.1.0-20736]",
-        "lower": "4.2.3.5-1.21.1-port.0.1.0-20736",
+        "raw": "[4.2.3.5-1.21.1-port.0.1.0-20740,)",
+        "lower": "4.2.3.5-1.21.1-port.0.1.0-20740",
         "base": "4.2.3.5",
         "mc": "1.21.1",
         "port": "0.1.0",
-        "build": 20736,
+        "build": 20740,
         "mandatory": true
       },
       "thaumic_tinkerer": null,
@@ -2124,7 +2133,7 @@
         {
           "owner": "technom",
           "mod_id": "thaumcraft",
-          "version_range": "[4.2.3.5-1.21.1-port.0.1.0-20736]",
+          "version_range": "[4.2.3.5-1.21.1-port.0.1.0-20740,)",
           "mandatory": true,
           "type": "required",
           "side": "BOTH",
