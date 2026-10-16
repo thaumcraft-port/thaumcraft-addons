@@ -1,6 +1,6 @@
 {
   "repo": "thaumcraft-port/thaumcraft-addons",
-  "generated_at": "2026-10-15T14:05:37Z",
+  "generated_at": "2026-10-16T05:58:19Z",
   "release_tag": "latest",
   "mc_versions": [
     "1.20.1",
@@ -8,11 +8,11 @@
   ],
   "counts": {
     "1.20.1/experimental": 3,
-    "1.20.1/stable": 13,
+    "1.20.1/stable": 14,
     "1.21.1/experimental": 3,
-    "1.21.1/stable": 11
+    "1.21.1/stable": 12
   },
-  "total": 30,
+  "total": 32,
   "mods": [
     {
       "file": "mods/experimental/1.20.1/thaumic-bases-forge-1.3.1710.4-1.20.1-port.0.1.0-26c67473.jar",
@@ -970,6 +970,71 @@
       ],
       "filename_hint": null,
       "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/technom-1.20.1-0.1.0-dev.jar"
+    },
+    {
+      "file": "mods/1.20.1/thaumadds-1.20.1-forge-0.1.0.jar",
+      "file_name": "thaumadds-1.20.1-forge-0.1.0.jar",
+      "size": 4694530,
+      "sha256": "20b45bc6f894813fdc11e3c9b4c26d195888545452feaf798c82e2e146feceea",
+      "channel": "stable",
+      "mc_version": "1.20.1",
+      "loader": "forge",
+      "mod_id": "thaumadds",
+      "mod_name": "Thaumic Additions: Reconstructed (Port)",
+      "mod_version": "0.1.0",
+      "authors": "unofficial port contributors",
+      "license": "All Rights Reserved",
+      "description": "Port of Thaumic Additions: Reconstructed onto Thaumcraft 4: Reconstructed (1.20.1 Forge / 1.21.1 NeoForge).",
+      "tc4": {
+        "raw": "[4.2.3.5-1.20.1-port.0.1.0-20740,)",
+        "lower": "4.2.3.5-1.20.1-port.0.1.0-20740",
+        "base": "4.2.3.5",
+        "mc": "1.20.1",
+        "port": "0.1.0",
+        "build": 20740,
+        "mandatory": true
+      },
+      "thaumic_tinkerer": null,
+      "dependencies": [
+        {
+          "owner": "thaumadds",
+          "mod_id": "forge",
+          "version_range": "[47,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "thaumadds",
+          "mod_id": "minecraft",
+          "version_range": "[1.20.1]",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "thaumadds",
+          "mod_id": "thaumcraft",
+          "version_range": "[4.2.3.5-1.20.1-port.0.1.0-20740,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumadds",
+          "mod_id": "hclite",
+          "version_range": "[1,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        }
+      ],
+      "filename_hint": null,
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumadds-1.20.1-forge-0.1.0.jar"
     },
     {
       "file": "mods/1.20.1/thaumicenergistics-2.3.17-forge-alpha.jar",
@@ -2151,6 +2216,71 @@
       ],
       "filename_hint": null,
       "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/technom-1.21.1-neoforge-0.1.0-dev.jar"
+    },
+    {
+      "file": "mods/1.21.1/thaumadds-1.21.1-neoforge-0.1.0.jar",
+      "file_name": "thaumadds-1.21.1-neoforge-0.1.0.jar",
+      "size": 4684991,
+      "sha256": "ab2f4fac4f800f02c08ffd167ec4ed5c11cd2bd359c82b854c1e770a3dce3302",
+      "channel": "stable",
+      "mc_version": "1.21.1",
+      "loader": "neoforge",
+      "mod_id": "thaumadds",
+      "mod_name": "Thaumic Additions: Reconstructed (Port)",
+      "mod_version": "0.1.0",
+      "authors": "unofficial port contributors",
+      "license": "All Rights Reserved",
+      "description": "Port of Thaumic Additions: Reconstructed onto Thaumcraft 4: Reconstructed (1.20.1 Forge / 1.21.1 NeoForge).",
+      "tc4": {
+        "raw": "[4.2.3.5-1.21.1-port.0.1.0-20740,)",
+        "lower": "4.2.3.5-1.21.1-port.0.1.0-20740",
+        "base": "4.2.3.5",
+        "mc": "1.21.1",
+        "port": "0.1.0",
+        "build": 20740,
+        "mandatory": true
+      },
+      "thaumic_tinkerer": null,
+      "dependencies": [
+        {
+          "owner": "thaumadds",
+          "mod_id": "neoforge",
+          "version_range": "[4,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "thaumadds",
+          "mod_id": "minecraft",
+          "version_range": "[1.21.1]",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "thaumadds",
+          "mod_id": "thaumcraft",
+          "version_range": "[4.2.3.5-1.21.1-port.0.1.0-20740,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumadds",
+          "mod_id": "hclite",
+          "version_range": "[1,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        }
+      ],
+      "filename_hint": null,
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumadds-1.21.1-neoforge-0.1.0.jar"
     },
     {
       "file": "mods/1.21.1/thaumic-tinkerer-neoforge-2.5-1.21.1-port.0.1.0-20740.jar",
