@@ -12,6 +12,7 @@ e2e2f0fea477e51f4912e09c0d670022fd768906391d3e8bb9edf89b99857832  mods/1.20.1/ta
 4d858adc7580cc804fa0b5363f6badfc3d68c5585d83568fe68600205408fce2  mods/1.20.1/thaumcraft-client-tweaks-forge-1.1.5.jar
 02319ac8687299d6209c087a73060d2bb92b7c261c74741a166bdb93cc5e6a5e  mods/1.20.1/technom-1.20.1-0.1.0-dev.jar
 221db801f3699ad0fc039929f51bafbc72576394eff3e2a9945feeece52bfc7a  mods/1.20.1/thaumadds-1.20.1-0.1.0.jar
+9ecced9a4681c76fcb9f023e4d205d8f545700a2b1d241fda95f2eab2979dc9f  mods/1.20.1/thaumcraft-forge-4.2.3.5-1.20.1-port.0.1.0-20759.jar
 1faacd6f7f2bcff1fed182caff97187ea7d8e2999cc38388465fcf48a2a4c35f  mods/1.20.1/thaumicenergistics-2.3.17-forge-alpha.jar
 d3ceb2ce7a129450f5cdb44e43a326648576841730053e3e80074b7fe501bcfc  mods/1.20.1/thaumic-tinkerer-forge-2.5-1.20.1-port.0.1.0-20759.jar
 9742a59cc2fa5725045ade274ad975d849ba436087539383fec28e5d3be513fb  mods/1.20.1/warpfx-1.20.1-forge-0.1.0.jar
@@ -29,6 +30,7 @@ ce190dadbb3d28d25ff709b7a7c09177328abb1f1bd2afe014b5b6e3e909270e  mods/experimen
 b270a26ccf3707308c8a03252d47af98543338c94a1370c00c984a94c71b071c  mods/1.21.1/thaumicenergistics-1.21.1-neo-2.4.18-alpha.jar
 37eaed7dee38bc4f5aa9ba5d33344df865b3ced29b35c56ecbe0aa37135a7775  mods/1.21.1/technom-1.21.1-0.1.0-dev.jar
 75df27727c19d8456ed654cb91e0d90f9e3baa1e4d82843d1509e6b0ead588e1  mods/1.21.1/thaumadds-1.21.1-0.1.0.jar
+fb5181f570681cade6039d1eb398b5286c544af4dab29041fbc88a416d5fbfb4  mods/1.21.1/thaumcraft-neoforge-4.2.3.5-1.21.1-port.0.1.0-20759.jar
 0c88ca4214a09c3066c42588e6dada94f4cb3295525685242bd7539067a10fd3  mods/1.21.1/thaumic-tinkerer-neoforge-2.5-1.21.1-port.0.1.0-20759.jar
 9595306fe6ba624abc94eb7911ae18078488cba989b1f010a3059921e941c913  mods/1.21.1/warpfx-1.21.1-neoforge-0.1.0.jar
 5a661087fb0bef9566a957cfdbba3cbb28793c3e0a73e3609ecf7ca4c1f64abf  mods/1.21.1/warp-theory-neoforge-1.5.8-GTNH-1.21.1-port.0.1.0-20759.jar

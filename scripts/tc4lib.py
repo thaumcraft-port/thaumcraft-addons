@@ -468,6 +468,8 @@ def save_json(path: str, data: Any) -> None:
 
 def tc4_requirement(record: Dict[str, Any]) -> str:
     """Short human string describing the required TC4R core build."""
+    if (record.get("mod_id") or "").lower() in THAUMCRAFT_MODIDS:
+        return "本体"
     tc4 = record.get("tc4") or {}
     base = tc4.get("base")
     build = tc4.get("build")

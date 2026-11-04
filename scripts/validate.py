@@ -74,7 +74,9 @@ def validate(repo_root: str) -> tuple:
                 errors.append(
                     "%s: folder says MC %s but jar declares MC %s" % (rel, folder_mc, rec["mc_version"])
                 )
-            if not rec["tc4"] or not (rec["tc4"].get("raw")):
+            if rec["mod_id"] not in tc4lib.THAUMCRAFT_MODIDS and (
+                not rec["tc4"] or not (rec["tc4"].get("raw"))
+            ):
                 errors.append("%s: no 'thaumcraft' dependency declared" % rel)
             if not rec["mod_id"]:
                 errors.append("%s: modId is empty" % rel)

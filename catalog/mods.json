@@ -1,6 +1,6 @@
 {
   "repo": "thaumcraft-port/thaumcraft-addons",
-  "generated_at": "2026-11-04T05:40:33Z",
+  "generated_at": "2026-11-04T05:54:27Z",
   "release_tag": "latest",
   "mc_versions": [
     "1.20.1",
@@ -8,11 +8,11 @@
   ],
   "counts": {
     "1.20.1/experimental": 4,
-    "1.20.1/stable": 15,
+    "1.20.1/stable": 16,
     "1.21.1/experimental": 4,
-    "1.21.1/stable": 12
+    "1.21.1/stable": 13
   },
-  "total": 35,
+  "total": 37,
   "mods": [
     {
       "file": "mods/experimental/1.20.1/thaumic-bases-forge-1.3.1710.4-1.20.1-port.0.1.0-20759.jar",
@@ -1190,6 +1190,63 @@
       ],
       "filename_hint": null,
       "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumadds-1.20.1-0.1.0.jar"
+    },
+    {
+      "file": "mods/1.20.1/thaumcraft-forge-4.2.3.5-1.20.1-port.0.1.0-20759.jar",
+      "file_name": "thaumcraft-forge-4.2.3.5-1.20.1-port.0.1.0-20759.jar",
+      "size": 20974612,
+      "sha256": "9ecced9a4681c76fcb9f023e4d205d8f545700a2b1d241fda95f2eab2979dc9f",
+      "channel": "stable",
+      "mc_version": "1.20.1",
+      "loader": "forge",
+      "mod_id": "thaumcraft",
+      "mod_name": "Thaumcraft 4R",
+      "mod_version": "4.2.3.5-1.20.1-port.0.1.0-20759",
+      "authors": "Azanor; Thaumic Scissors",
+      "license": "All Rights Reserved",
+      "description": "A comprehensive refactor of Thaumcraft 4.2.3.5 for modern Minecraft. Discover arcane research, harness aura nodes, and master alchemy, infusion, and golemancy.",
+      "tc4": {},
+      "thaumic_tinkerer": null,
+      "dependencies": [
+        {
+          "owner": "thaumcraft",
+          "mod_id": "forge",
+          "version_range": "[47.4.10,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumcraft",
+          "mod_id": "minecraft",
+          "version_range": "[1.20.1]",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "thaumcraft",
+          "mod_id": "curios",
+          "version_range": "[5.14.1+1.20.1,6)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumcraft",
+          "mod_id": "terrablender",
+          "version_range": "[3.0.1.10,4)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        }
+      ],
+      "filename_hint": null,
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumcraft-forge-4.2.3.5-1.20.1-port.0.1.0-20759.jar"
     },
     {
       "file": "mods/1.20.1/thaumicenergistics-2.3.17-forge-alpha.jar",
@@ -2517,6 +2574,81 @@
       ],
       "filename_hint": null,
       "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumadds-1.21.1-0.1.0.jar"
+    },
+    {
+      "file": "mods/1.21.1/thaumcraft-neoforge-4.2.3.5-1.21.1-port.0.1.0-20759.jar",
+      "file_name": "thaumcraft-neoforge-4.2.3.5-1.21.1-port.0.1.0-20759.jar",
+      "size": 19552735,
+      "sha256": "fb5181f570681cade6039d1eb398b5286c544af4dab29041fbc88a416d5fbfb4",
+      "channel": "stable",
+      "mc_version": "1.21.1",
+      "loader": "neoforge",
+      "mod_id": "thaumcraft",
+      "mod_name": "Thaumcraft 4R",
+      "mod_version": "4.2.3.5-1.21.1-port.0.1.0-20759",
+      "authors": "Azanor; Thaumic Scissors",
+      "license": "All Rights Reserved",
+      "description": "A comprehensive refactor of Thaumcraft 4.2.3.5 for modern Minecraft. Discover arcane research, harness aura nodes, and master alchemy, infusion, and golemancy.",
+      "tc4": {},
+      "thaumic_tinkerer": null,
+      "dependencies": [
+        {
+          "owner": "thaumcraft",
+          "mod_id": "neoforge",
+          "version_range": "[21.1.248,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumcraft",
+          "mod_id": "minecraft",
+          "version_range": "[1.21.1]",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "NONE"
+        },
+        {
+          "owner": "thaumcraft",
+          "mod_id": "curios",
+          "version_range": "[9.5.1,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumcraft",
+          "mod_id": "terrablender",
+          "version_range": "[4.1.0.8,)",
+          "mandatory": true,
+          "type": "required",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumcraft",
+          "mod_id": "jade",
+          "version_range": "[15.10.5,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "CLIENT",
+          "ordering": "AFTER"
+        },
+        {
+          "owner": "thaumcraft",
+          "mod_id": "craftingtweaks",
+          "version_range": "[21.1.1,)",
+          "mandatory": false,
+          "type": "optional",
+          "side": "BOTH",
+          "ordering": "AFTER"
+        }
+      ],
+      "filename_hint": null,
+      "download_url": "https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumcraft-neoforge-4.2.3.5-1.21.1-port.0.1.0-20759.jar"
     },
     {
       "file": "mods/1.21.1/thaumic-tinkerer-neoforge-2.5-1.21.1-port.0.1.0-20759.jar",

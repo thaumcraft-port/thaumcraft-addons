@@ -21,7 +21,7 @@
 - 🔍 仓库自带脚本，自动读取每个模组声明的 **TC4R 依赖基线与最低构建号**。
 - ✅ 每次提交 / PR 都由 GitHub Actions 自动校验（元数据、目录规范、依赖声明、README 是否最新）。
 
-> 当前共收录 **35** 个模组文件，数据由 `catalog/mods.json` 自动生成。
+> 当前共收录 **37** 个模组文件，数据由 `catalog/mods.json` 自动生成。
 
 ## 📥 下载
 
@@ -40,6 +40,7 @@
 | Pollution Unofficial | `pollution` | `1.0.0-1.20.1-port.0.1.0` | Forge | ≥ 4.2.3.5 (build 20759) | 10.0 MB | [下载](https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/pollution-1.20.1-1.0.0-1.20.1-port.0.1.0.jar) |
 | Tainted Magic | `tainted_magic` | `8.1.1-1.20.1-port.0.1.0-20759` | Forge | ≥ 4.2.3.5 (build 20759) | 3.8 MB | [下载](https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/tainted-magic-forge-8.1.1-1.20.1-port.0.1.0-20759.jar) |
 | Technomancy Unofficial | `technom` | `0.1.0-dev` | Forge | ≥ 4.2.3.5 (build 20753) | 1.6 MB | [下载](https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/technom-1.20.1-0.1.0-dev.jar) |
+| Thaumcraft 4R | `thaumcraft` | `4.2.3.5-1.20.1-port.0.1.0-20759` | Forge | 本体 | 20.0 MB | [下载](https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumcraft-forge-4.2.3.5-1.20.1-port.0.1.0-20759.jar) |
 | Thaumcraft Client Tweaks | `tc4tweaks` | `1.1.5` | Forge | ≥ 4.2.3.5 (build 20740) | 480.1 KB | [下载](https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumcraft-client-tweaks-forge-1.1.5.jar) |
 | Thaumic Additions: Reconstructed (Port) | `thaumadds` | `0.1.0` | Forge | ≥ 4.2.3.5 (build 20759) | 4.8 MB | [下载](https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumadds-1.20.1-0.1.0.jar) |
 | Thaumic Horizons | `isorropia` | `1.0.7-alpha` | Forge | ≥ 4.2.3.5 (build 20759) | 4.1 MB | [下载](https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/isorropia-1.20.1-1.0.7-alpha.jar) |
@@ -57,6 +58,7 @@
 | Nodal Mechanics | `nodalmechanics` | `1.0.7-port.0.1.0-20759` | NeoForge | ≥ 4.2.3.5 (build 20759) | 62.8 KB | [下载](https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/nodal-mechanics-neoforge-1.0.7-port.0.1.0-20759.jar) |
 | Tainted Magic | `tainted_magic` | `8.1.1-1.21.1-port.0.1.0-20759` | NeoForge | ≥ 4.2.3.5 (build 20759) | 3.7 MB | [下载](https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/tainted-magic-neoforge-8.1.1-1.21.1-port.0.1.0-20759.jar) |
 | Technomancy Unofficial | `technom` | `0.1.0-dev` | NeoForge | ≥ 4.2.3.5 (build 20753) | 1.5 MB | [下载](https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/technom-1.21.1-0.1.0-dev.jar) |
+| Thaumcraft 4R | `thaumcraft` | `4.2.3.5-1.21.1-port.0.1.0-20759` | NeoForge | 本体 | 18.6 MB | [下载](https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumcraft-neoforge-4.2.3.5-1.21.1-port.0.1.0-20759.jar) |
 | Thaumcraft Client Tweaks | `tc4tweaks` | `1.1.5` | NeoForge | ≥ 4.2.3.5 (build 20740) | 461.5 KB | [下载](https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumcraft-client-tweaks-neoforge-1.1.5.jar) |
 | Thaumic Additions: Reconstructed (Port) | `thaumadds` | `0.1.0` | NeoForge | ≥ 4.2.3.5 (build 20759) | 4.7 MB | [下载](https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumadds-1.21.1-0.1.0.jar) |
 | Thaumic Horizons | `isorropia` | `1.0.7-alpha` | NeoForge | ≥ 4.2.3.5 (build 20759) | 4.1 MB | [下载](https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/isorropia-1.21.1-1.0.7-alpha.jar) |
@@ -134,6 +136,13 @@
 - **Minecraft 1.20.1** · Forge · 模组版本 `0.1.0-dev` · 需要 ≥ 4.2.3.5 (build 20753) · [下载](https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/technom-1.20.1-0.1.0-dev.jar)
 - **Minecraft 1.21.1** · NeoForge · 模组版本 `0.1.0-dev` · 需要 ≥ 4.2.3.5 (build 20753) · [下载](https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/technom-1.21.1-0.1.0-dev.jar)
 
+### Thaumcraft 4R (`thaumcraft`)
+
+> A comprehensive refactor of Thaumcraft 4.2.3.5 for modern Minecraft. Discover arcane research, harness aura nodes, and master alchemy, infusion, and golemancy.
+
+- **Minecraft 1.20.1** · Forge · 模组版本 `4.2.3.5-1.20.1-port.0.1.0-20759` · 需要 本体 · [下载](https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumcraft-forge-4.2.3.5-1.20.1-port.0.1.0-20759.jar)
+- **Minecraft 1.21.1** · NeoForge · 模组版本 `4.2.3.5-1.21.1-port.0.1.0-20759` · 需要 本体 · [下载](https://github.com/thaumcraft-port/thaumcraft-addons/releases/latest/download/thaumcraft-neoforge-4.2.3.5-1.21.1-port.0.1.0-20759.jar)
+
 ### Thaumcraft Client Tweaks (`tc4tweaks`)
 
 > Client-side Thaumonomicon search, navigation, layout, optional research-table interface and aura-node visual improvements.
@@ -203,6 +212,7 @@
 | Pollution Unofficial | 1.20.1 | Forge | `1.0.0-1.20.1-port.0.1.0` | 4.2.3.5 | 20759 | 正式 |
 | Tainted Magic | 1.20.1 | Forge | `8.1.1-1.20.1-port.0.1.0-20759` | 4.2.3.5 | 20759 | 正式 |
 | Technomancy Unofficial | 1.20.1 | Forge | `0.1.0-dev` | 4.2.3.5 | 20753 | 正式 |
+| Thaumcraft 4R | 1.20.1 | Forge | `4.2.3.5-1.20.1-port.0.1.0-20759` | ? | 任意 | 正式 |
 | Thaumcraft Client Tweaks | 1.20.1 | Forge | `1.1.5` | 4.2.3.5 | 20740 | 正式 |
 | Thaumic Additions: Reconstructed (Port) | 1.20.1 | Forge | `0.1.0` | 4.2.3.5 | 20759 | 正式 |
 | Thaumic Bases | 1.20.1 | Forge | `1.3.1710.4-1.20.1-port.0.1.0-20759` | 4.2.3.5 | 20759 | 实验 |
@@ -219,6 +229,7 @@
 | Nodal Mechanics | 1.21.1 | NeoForge | `1.0.7-port.0.1.0-20759` | 4.2.3.5 | 20759 | 正式 |
 | Tainted Magic | 1.21.1 | NeoForge | `8.1.1-1.21.1-port.0.1.0-20759` | 4.2.3.5 | 20759 | 正式 |
 | Technomancy Unofficial | 1.21.1 | NeoForge | `0.1.0-dev` | 4.2.3.5 | 20753 | 正式 |
+| Thaumcraft 4R | 1.21.1 | NeoForge | `4.2.3.5-1.21.1-port.0.1.0-20759` | ? | 任意 | 正式 |
 | Thaumcraft Client Tweaks | 1.21.1 | NeoForge | `1.1.5` | 4.2.3.5 | 20740 | 正式 |
 | Thaumic Additions: Reconstructed (Port) | 1.21.1 | NeoForge | `0.1.0` | 4.2.3.5 | 20759 | 正式 |
 | Thaumic Bases | 1.21.1 | NeoForge | `1.3.1710.4-1.21.1-port.0.1.0-20759` | 4.2.3.5 | 20759 | 实验 |
@@ -253,6 +264,7 @@
 | `thaumcraft-client-tweaks-forge-1.1.5.jar` | `4d858adc7580cc804fa0b5363f6badfc3d68c5585d83568fe68600205408fce2` |
 | `technom-1.20.1-0.1.0-dev.jar` | `02319ac8687299d6209c087a73060d2bb92b7c261c74741a166bdb93cc5e6a5e` |
 | `thaumadds-1.20.1-0.1.0.jar` | `221db801f3699ad0fc039929f51bafbc72576394eff3e2a9945feeece52bfc7a` |
+| `thaumcraft-forge-4.2.3.5-1.20.1-port.0.1.0-20759.jar` | `9ecced9a4681c76fcb9f023e4d205d8f545700a2b1d241fda95f2eab2979dc9f` |
 | `thaumicenergistics-2.3.17-forge-alpha.jar` | `1faacd6f7f2bcff1fed182caff97187ea7d8e2999cc38388465fcf48a2a4c35f` |
 | `thaumic-tinkerer-forge-2.5-1.20.1-port.0.1.0-20759.jar` | `d3ceb2ce7a129450f5cdb44e43a326648576841730053e3e80074b7fe501bcfc` |
 | `warpfx-1.20.1-forge-0.1.0.jar` | `9742a59cc2fa5725045ade274ad975d849ba436087539383fec28e5d3be513fb` |
@@ -270,6 +282,7 @@
 | `thaumicenergistics-1.21.1-neo-2.4.18-alpha.jar` | `b270a26ccf3707308c8a03252d47af98543338c94a1370c00c984a94c71b071c` |
 | `technom-1.21.1-0.1.0-dev.jar` | `37eaed7dee38bc4f5aa9ba5d33344df865b3ced29b35c56ecbe0aa37135a7775` |
 | `thaumadds-1.21.1-0.1.0.jar` | `75df27727c19d8456ed654cb91e0d90f9e3baa1e4d82843d1509e6b0ead588e1` |
+| `thaumcraft-neoforge-4.2.3.5-1.21.1-port.0.1.0-20759.jar` | `fb5181f570681cade6039d1eb398b5286c544af4dab29041fbc88a416d5fbfb4` |
 | `thaumic-tinkerer-neoforge-2.5-1.21.1-port.0.1.0-20759.jar` | `0c88ca4214a09c3066c42588e6dada94f4cb3295525685242bd7539067a10fd3` |
 | `warpfx-1.21.1-neoforge-0.1.0.jar` | `9595306fe6ba624abc94eb7911ae18078488cba989b1f010a3059921e941c913` |
 | `warp-theory-neoforge-1.5.8-GTNH-1.21.1-port.0.1.0-20759.jar` | `5a661087fb0bef9566a957cfdbba3cbb28793c3e0a73e3609ecf7ca4c1f64abf` |
@@ -298,4 +311,4 @@ git push
 
 ---
 
-<sub>本 README 由 `scripts/gen_readme.py` 依据 `catalog/mods.json` 自动生成，请勿手工编辑；如需修改请编辑 `README.template.md`。生成时间：2026-11-04T05:40:14Z</sub>
+<sub>本 README 由 `scripts/gen_readme.py` 依据 `catalog/mods.json` 自动生成，请勿手工编辑；如需修改请编辑 `README.template.md`。生成时间：2026-11-04T05:54:15Z</sub>
